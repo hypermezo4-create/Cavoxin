@@ -49,7 +49,7 @@ class MonetViewModel @Inject constructor(
     fun onPresetSelect(id: String) = persist {
         val preset = presets.firstOrNull { it.id == id }
         preset?.let { ThemeSync.updateSeed(it.seedColor) }
-        copy(selectedPresetId = id)
+        copy(presetId = id)
     }
 
     fun toggleTarget(key: String) = persist {

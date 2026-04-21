@@ -3,6 +3,7 @@ package com.deadzon.app.core.ui
 import androidx.compose.foundation.background
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
+import androidx.compose.foundation.layout.Box
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxWidth
@@ -90,7 +91,7 @@ fun QuickSwitch(title: String, checked: Boolean, onCheckedChange: (Boolean) -> U
 fun ColorPreviewRow(preset: MonetPreset) {
     Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
         preset.preview.forEach {
-            androidx.compose.foundation.Box(
+            Box(
                 modifier = Modifier
                     .size(24.dp)
                     .background(it, RoundedCornerShape(50))
