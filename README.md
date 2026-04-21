@@ -37,6 +37,17 @@ Code is organized by internal packages:
 3. Build and run `app` on Android 12+.
 4. Grant root access when prompted by your root manager.
 
+## Gradle wrapper + CI notes
+- This repository is expected to include a full Gradle wrapper so GitHub Actions can run:
+  - `chmod +x ./gradlew`
+  - `./gradlew assembleDebug`
+- Required wrapper files:
+  - `gradlew`
+  - `gradlew.bat`
+  - `gradle/wrapper/gradle-wrapper.properties`
+  - `gradle/wrapper/gradle-wrapper.jar`
+- `gradle-wrapper.jar` is intentionally managed manually in this workflow. If it is missing, add it locally before pushing so `.github/workflows/android-debug.yml` can build and upload the debug APK artifact.
+
 ## Runtime notes
 - If root is missing, Dead Zon reports unavailable root and overlay operations fail gracefully.
 - If a mapped overlay package is not installed on the ROM, it is skipped and recorded in logs.
