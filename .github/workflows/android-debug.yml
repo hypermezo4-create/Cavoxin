@@ -27,6 +27,12 @@ jobs:
       - name: Make gradlew executable
         run: chmod +x ./gradlew
 
+      - name: Verify Gradle wrapper files
+        run: |
+          test -f ./gradlew
+          test -f ./gradle/wrapper/gradle-wrapper.properties
+          test -f ./gradle/wrapper/gradle-wrapper.jar
+
       - name: Build debug APK
         run: ./gradlew assembleDebug
 
