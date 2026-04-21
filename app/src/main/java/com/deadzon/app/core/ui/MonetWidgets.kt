@@ -10,8 +10,9 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.lazy.LazyRow
+import androidx.compose.foundation.lazy.items
 import androidx.compose.foundation.shape.RoundedCornerShape
-import androidx.compose.material3.Card
 import androidx.compose.material3.CardDefaults
 import androidx.compose.material3.Checkbox
 import androidx.compose.material3.FilterChip
@@ -28,23 +29,24 @@ import com.deadzon.app.domain.monet.MonetTarget
 
 @Composable
 fun RootStatusCard(rootAvailable: Boolean) {
-    Card(colors = CardDefaults.cardColors(containerColor = Color(0xFF111111))) {
+    GlassCard {
+        SectionTitle("Root Access", if (rootAvailable) "Granted" else "Required")
         Text(
-            text = if (rootAvailable) "Root status: available" else "Root status: unavailable",
-            modifier = Modifier.padding(16.dp),
-            color = if (rootAvailable) Color(0xFF66BB6A) else Color(0xFFEF5350)
+            text = if (rootAvailable) "Overlay operations are ready." else "Grant root to continue using Dead Zon modules.",
+            color = if (rootAvailable) Color(0xFF7DFF9A) else Color(0xFFFF8A8A)
         )
     }
 }
 
 @Composable
 fun PresetChips(presets: List<MonetPreset>, selectedId: String, onSelect: (String) -> Unit) {
-    Row(modifier = Modifier.fillMaxWidth(), horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-        presets.forEach { preset ->
+    LazyRow(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+        items(presets) { preset ->
             FilterChip(
                 selected = preset.id == selectedId,
                 onClick = { onSelect(preset.id) },
-                label = { Text(preset.name) }
+                label = { Text(preset.name) },
+                border = CardDefaults.outlinedCardBorder(),
             )
         }
     }
@@ -52,19 +54,16 @@ fun PresetChips(presets: List<MonetPreset>, selectedId: String, onSelect: (Strin
 
 @Composable
 fun TargetRow(target: MonetTarget, checked: Boolean, onToggle: () -> Unit) {
-    Card(
+    GlassCard(
         modifier = Modifier
             .fillMaxWidth()
-            .clickable(onClick = onToggle),
-        colors = CardDefaults.cardColors(containerColor = Color(0xFF0F0F0F)),
-        shape = RoundedCornerShape(14.dp)
+            .clickable(onClick = onToggle)
     ) {
         Row(
-            modifier = Modifier.padding(14.dp),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
-            Column(modifier = Modifier.weight(1f)) {
+            Column(modifier = Modifier.weight(1f), verticalArrangement = Arrangement.spacedBy(3.dp)) {
                 Text(target.title, style = MaterialTheme.typography.titleMedium)
                 Text(target.overlayPackage, style = MaterialTheme.typography.bodySmall, color = MaterialTheme.colorScheme.onSurfaceVariant)
             }
@@ -75,13 +74,13 @@ fun TargetRow(target: MonetTarget, checked: Boolean, onToggle: () -> Unit) {
 
 @Composable
 fun QuickSwitch(title: String, checked: Boolean, onCheckedChange: (Boolean) -> Unit) {
-    Card(colors = CardDefaults.cardColors(containerColor = Color(0xFF101010))) {
+    GlassCard {
         Row(
-            modifier = Modifier.fillMaxWidth().padding(16.dp),
+            modifier = Modifier.fillMaxWidth(),
             verticalAlignment = Alignment.CenterVertically,
             horizontalArrangement = Arrangement.SpaceBetween
         ) {
-            Text(title)
+            Text(title, style = MaterialTheme.typography.titleMedium)
             Switch(checked = checked, onCheckedChange = onCheckedChange)
         }
     }
@@ -89,13 +88,17 @@ fun QuickSwitch(title: String, checked: Boolean, onCheckedChange: (Boolean) -> U
 
 @Composable
 fun ColorPreviewRow(preset: MonetPreset) {
-    Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
-        preset.preview.forEach {
-            Box(
-                modifier = Modifier
-                    .size(24.dp)
-                    .background(it, RoundedCornerShape(50))
-            )
+    GlassCard {
+        Text("Palette Preview", style = MaterialTheme.typography.titleMedium)
+        Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
+            preset.preview.forEach {
+                Box(
+                    modifier = Modifier
+                        .size(26.dp)
+                        .background(it, RoundedCornerShape(50))
+                )
+            }
         }
+        Box(modifier = Modifier.fillMaxWidth().height(3.dp).background(Color(0x66FFFFFF), RoundedCornerShape(99.dp)))
     }
 }
