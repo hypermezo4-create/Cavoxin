@@ -42,9 +42,27 @@ class MonetViewModel @Inject constructor(
         }
     }
 
+    fun requestRootFromOnboarding() {
+        viewModelScope.launch {
+            _uiState.update { it.copy(busy = true, lastResult = null) }
+            val hasRoot = controller.hasRoot()
+            prefs.update { it.copy(rootGateCompleted = hasRoot) }
+            _uiState.update {
+                it.copy(
+                    busy = false,
+                    rootAvailable = hasRoot,
+                    rootGateCompleted = hasRoot,
+                    lastResult = if (hasRoot) "Root access granted" else "Root access is required to continue"
+                )
+            }
+        }
+    }
+
     fun onMonetToggle(value: Boolean) = persist { copy(monetEnabled = value) }
     fun onApplyToAppToggle(value: Boolean) = persist { copy(applyToApp = value) }
-    fun onSearchChange(query: String) { _uiState.update { it.copy(searchQuery = query) } }
+    fun onSearchChange(query: String) {
+        _uiState.update { it.copy(searchQuery = query) }
+    }
 
     fun onPresetSelect(id: String) = persist {
         val preset = presets.firstOrNull { it.id == id }
@@ -85,10 +103,17 @@ class MonetViewModel @Inject constructor(
                     monetEnabled = false,
                     applyToApp = true,
                     presetId = "stock",
-                    selectedTargets = emptySet()
+                    selectedTargets = emptySet(),
+                    rootGateCompleted = it.rootGateCompleted
                 )
             }
-            _uiState.update { it.copy(busy = false, logs = (result.logs + it.logs).takeLast(200), lastResult = "Reset completed") }
+            _uiState.update {
+                it.copy(
+                    busy = false,
+                    logs = (result.logs + it.logs).takeLast(200),
+                    lastResult = "Reset completed"
+                )
+            }
         }
     }
 
@@ -104,7 +129,8 @@ class MonetViewModel @Inject constructor(
                 monetEnabled = stored.monetEnabled,
                 applyToApp = stored.applyToApp,
                 selectedPresetId = stored.presetId,
-                selectedTargets = stored.selectedTargets
+                selectedTargets = stored.selectedTargets,
+                rootGateCompleted = stored.rootGateCompleted
             )
         }
     }

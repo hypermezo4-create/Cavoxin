@@ -43,5 +43,6 @@ data class MonetUiState(
     val rootAvailable: Boolean = false,
     val busy: Boolean = false,
     val logs: List<String> = emptyList(),
-    val lastResult: String? = null
+    val lastResult: String? = null,
+    val rootGateCompleted: Boolean = false
 )
