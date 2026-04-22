@@ -1,0 +1,1815 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<resources offset16="true">
+    <string name="charge_animation_style_summary">Choose your preferred lock screen charging animation style</string>
+    <string name="charge_animation_style_title">Charging animation</string>
+    <string name="charge_animation_style_wave">Wave</string>
+    <string name="contributors_title">Contributors</string>
+    <string name="control_panel_switch_side">Switch Control center side</string>
+    <string name="default_vol_stream_title">Default volume control stream</string>
+    <string name="device_description_battery">Battery capacity</string>
+    <string name="device_description_camera">Rear camera</string>
+    <string name="device_description_cpu">CPU</string>
+    <string name="device_description_ram">RAM</string>
+    <string name="device_description_resolution">Resolution</string>
+    <string name="device_description_screen">Display</string>
+    <string name="display_notification_icon_5">%d icons</string>
+    <string name="extended_power_menu">Extended power menu</string>
+    <string name="lockscreen_sidepanel_shortcuts_summary">Customize the apps displayed on the lock screen side panel</string>
+    <string name="lockscreen_sidepanel_shortcuts_title">Side panel shortcuts</string>
+    <string name="power_menu_under_keyguard_summary">Allow access to the power menu while the device is locked</string>
+    <string name="power_menu_under_keyguard_title">Power menu access</string>
+    <string name="status_bar_icons_title">Status bar icons</string>
+    <string name="status_bar_settings_notification_use_app_icon">Use app icons for notifications</string>
+    <string name="status_bar_settings_qs_layout">Quick settings layout</string>
+    <string name="unmute_sound_title">Play sound when Silent mode is turned off</string>
+    <string name="var_font_switch_title">System-wide variable font</string>
+    <string name="wifi_region_summary">Requires Wi-Fi to be restarted to take effect</string>
+    <string name="wifi_region_title">Wi-Fi region</string>
+    <string name="update_date" compact="false">Update date: 2026.3.10</string>
+    <string name="mimodui_title" compact="false">MoveOS</string>
+    <string name="mezo_menu_header_title">Change MoveOS menu header</string>
+    <string name="mezo_menu_header_summ">Encabezado 1</string>
+    <string name="mezo_menu_header_summ2">Header 2</string>
+    <string name="fps_monitoring_title">FPS monitoring</string>
+    <string name="fps_monitoring_summary">FPS monitoring per-app</string>
+    <string name="theme_server">Theme server</string>
+    <string name="gesture_settings">Bottom strip gesture</string>
+    <string name="str8892">Bottom navigation bar</string>
+    <string name="gesture_settings_summ">Customize navigation gesture</string>
+    <string name="use_monet">Use monet color</string>
+    <string name="navigation_bandwidth">Navigation bandwidth</string>
+    <string name="navigation_bar_thickness">Navigation bar thickness</string>
+    <string name="navigation_bar_offset">Navigation bar offset</string>
+    <string name="mezo_sett_menu_hyperai" compact="false">Applications with artificial intelligence</string>
+    <string name="statusbar_menu_styles_title" compact="false">Status bar styles</string>
+    <string name="status_bar_settings_title" compact="false">Status bar settings</string>
+    <string name="gradient_title" compact="false">Gradient</string>
+    <string name="mezo_lan" compact="false">Launcher Custom</string>
+    <string name="mezo_lan1" compact="false">Launcher and Other Features</string>
+    <string name="mezo_cc" compact="false">MoveOS Tile Style</string>
+    <string name="mezo_cc1" compact="false">Choose a Design for Your Big Tiles</string>
+    <string name="mezo_cc2" compact="false">Tile Color</string>
+    <string name="clock_medo_set_0">Show clock</string>
+    <string name="clock_medo_set_1">Clock color</string>
+    <string name="clock_medo_set_10">Clock size in status bar</string>
+    <string name="clock_medo_set_11">Clock division</string>
+    <string name="clock_medo_set_2">Clock font</string>
+    <string name="clock_medo_set_3">Blinking dots</string>
+    <string name="clock_medo_set_4">On</string>
+    <string name="clock_medo_set_5">Off</string>
+    <string name="clock_medo_set_6">Digits change animation</string>
+    <string name="clock_medo_set_7">Show seconds</string>
+    <string name="clock_medo_set_8">Show AM/PM</string>
+    <string name="clock_medo_set_8_summ">Show AM/PM only if seconds are off</string>
+    <string name="clock_medo_set_9">Show 24h clock</string>
+    <string name="clock_notif_hdr_1">Notification center clock</string>
+    <string name="clock_notif_hdr_10">Weather</string>
+    <string name="clock_notif_hdr_11">Font</string>
+    <string name="clock_notif_hdr_12">Date style</string>
+    <string name="cc_blur_title">Blur ratio on control center</string>
+    <string name="center_tit1">Center</string>
+    <string name="charge_mezo_styles_tit">Charging animation style</string>
+    <string name="clock_cust">Clock customizations</string>
+    <string name="clock_mezo_set_0">Show clock</string>
+    <string name="clock_mezo_set_1">Clock color</string>
+    <string name="clock_mezo_set_10">Clock size in status bar</string>
+    <string name="clock_mezo_set_11">Clock division</string>
+    <string name="clock_mezo_set_2">Clock font</string>
+    <string name="clock_mezo_set_3">Blinking dots</string>
+    <string name="clock_mezo_set_4">On</string>
+    <string name="clock_mezo_set_5">Off</string>
+    <string name="clock_mezo_set_6">Digits change animation</string>
+    <string name="clock_mezo_set_7">Show seconds</string>
+    <string name="clock_mezo_set_8">Show AM/PM</string>
+    <string name="clock_mezo_set_8_summ">Show AM/PM only if seconds are off</string>
+    <string name="clock_mezo_set_9">Show 24h clock</string>
+    <string name="colored_calls_cat">Color for calls</string>
+    <string name="contact_mezo_color_title">New contact color</string>
+    <string name="control_center13_summ">CC big tiles customizations</string>
+    <string name="control_center13_tit">Control center</string>
+    <string name="date_mezo_st_0">Date</string>
+    <string name="date_mezo_st_1">Date color, size, offset etc</string>
+    <string name="date_mezo_st_2">Date customizations</string>
+    <string name="date_mezo_st_3">Show date</string>
+    <string name="date_mezo_st_4">Configure</string>
+    <string name="date_mezo_st_5">Date format</string>
+    <string name="date_mezo_st_6">Color</string>
+    <string name="date_mezo_st_7">Font</string>
+    <string name="date_mezo_st_8">Date size</string>
+    <string name="date_mezo_st_9">Date division</string>
+    <string name="gradient_type_title" compact="false">Gradient type</string>
+    <string name="real_battery_capacity_title" compact="false">Real battery capacity</string>
+    <string name="settings_monet_title">Monet in settings</string>
+    <string name="settings_monet_summary">Actívate Monet in settings</string>
+    <string name="navbar_style_title">Navbar style</string>
+    <string name="navbar_style_summary">Change navbar style</string>
+    <string name="theme_customization_battery_icon_title">Battery icon</string>
+    <string name="theme_customization_battery_icon_summary">Change battery icon</string>
+    <string name="theme_customization_signal_icon_summary">Change Signal icon</string>
+    <string name="wifi_icon_style_title">WiFi icon</string>
+    <string name="wifi_icon_style_summary">Change WiFi icon</string>
+    <string name="theme_customization_volte_icon_title">voLTE icon</string>
+    <string name="theme_customization_volte_icon_summary">Change Volte icon</string>
+    <string name="vowifi_icons">VoWifi icons</string>
+    <string name="volume_icons">Volume icons</string>
+    <string name="change_sim_icon">Sim icon</string>
+    <string name="volte_hd">Volte, HD, etc...</string>
+    <string name="change_volume_icon">Volume icon</string>
+    <string name="change_date_styles">Date styles</string>
+    <string name="fingerprint_style">Fingerprint style</string>
+    <string name="notch_icons">Notch icons</string>
+    <string name="notch_icons_summ">Change camera hole</string>
+    <string name="navbar_icons">Navbar icons</string>
+    <string name="navbar_icons_summ">Change navbar icon</string>
+    <string name="settings_monet">Settings monet</string>
+    <string name="settings_monet_summ">Change settings to monet</string>
+    <string name="apply_changes_title" compact="false">Apply changes</string>
+    <string name="reboot_systemui_title" compact="false">Reboot systemui</string>
+    <string name="welcome_to" compact="false">Welcome to MoveOS</string>
+    <string name="type_of_tiles" compact="false">Type of tiles in Iconify menu</string>
+    <string name="settings_menu_style">Settings menu style</string>
+    <string name="frame_width_x" compact="false">Frame Width</string>
+    <string name="frame_color_light">Frame color light mode</string>
+    <string name="frame_color_dark">Frame color dark mode</string>
+    <string name="settings_icon" compact="false">Color effect</string>
+    <string name="notify_system_icons_pref_title">Color effects</string>
+    <string name="notify_system_icons_animation_title">Color shimmer</string>
+    <string name="notify_system_icons_main_color">Main color</string>
+    <string name="notify_system_icons_color_overflow">Color overflow</string>
+    <string name="notify_system_icons_overflow_dir">Overflow direction</string>
+    <string name="notify_system_icons_anim_speed">Animation speed</string>
+    <string name="notify_system_icons_anim_dir">Animation direction</string>
+    <string name="notify_system_icons_overflow_angle" compact="false">Tilt angle</string>
+    <string name="lable_enable" compact="false">On</string>
+    <string name="lable_disable" compact="false">Off</string>
+    <string name="custom_spoof_title" compact="false">Spoof device</string>
+    <string name="custom_spoof_summary" compact="false">Enable or disable device spoof components</string>
+    <string name="custom_spoof_pif_title">Dynamic Fingerprint</string>
+    <string name="custom_spoof_pif_summary">Use dynamic fingerprint to try to achieve MEETS_DEVICE_INTEGRITY. Turn off it to use custom fingerprint module</string>
+    <string name="custom_spoof_photo_title">Google photo unlimited</string>
+    <string name="custom_spoof_photo_summary">Enable to use google photo unlimited backup</string>
+    <string name="custom_spoof_pixelprops_title">Enable Pixel Props</string>
+    <string name="custom_spoof_pixelprops_summary">Spoof device is Pixel for some google apps. Always on on non-pixel devices</string>
+    <string name="custom_spoof_games_title">Unlock FPS in games</string>
+    <string name="custom_spoof_games_summary">Spoof device for each different game to enable high configuration for certain games</string>
+    <string name="custom_spoof_recent_title">Spoof Pixel 9 Pro XL</string>
+    <string name="custom_spoof_recent_summary">Spoof device is Pixel 9 Pro XL for some google apps</string>
+    <string name="custom_spoof_recentall_title">Spoof Pixel 9 Pro XL for all Google apps</string>
+    <string name="custom_spoof_recentall_summary">Spoof device is Pixel 9 Pro XL for all Google apps</string>
+    <string name="custom_spoof_tab_title">Tablet spoofing</string>
+    <string name="custom_spoof_tab_summary">Device spoofing as a tablet for all apps</string>
+    <string name="custom_spoof_fingerprint_title">Static Fingerprint</string>
+    <string name="custom_spoof_fingerprint_summary">Use static fingerprint set in the system instead of device fingerprint</string>
+    <string name="custom_spoof_netflix_title">Netflix Spoof</string>
+    <string name="custom_spoof_netflix_summary">Pixel 5A Identity Spoofing for Netflix</string>
+    <string name="custom_spoof_keybox_title">Keybox Fingerprint</string>
+    <string name="custom_spoof_keybox_summary">Use keybox fingerprint to try to achieve MEETS_STRONG_INTEGRITY. Turn it off when lost google play certificate or want to use custom fingerprint module</string>
+    <string name="custom_spoof_snapchat_title">Snapchat Spoof</string>
+    <string name="custom_spoof_snapchat_summary">Spoof Pixel 9 Pro XL device for Snapchat</string>
+    <string name="about_mezo_summary" compact="false">Changelog, members and support groups</string>
+    <string name="mezo_changelog" compact="false">••MoveOS V6 Global
+•Author: MeZo (Mohammed).
+•MoveOS V6 is Pure Global ROM.
+•OS3.0.2.0.VOKMIXM-user-16_0
+•Android Security Patch: 2026.01.15 
+•Tester: @mezo
+*********************************
+•Thanks to Miui for some fixes.
+•Thanks to you for using MoveOS on your Mobile.
+• If you like my work and want to help you can DM Me 
+Thank you! 
+*********************************
+•Install from fastboot/pc:
+1-Extract zip file
+2-Connect phone to pc in fastboot mode
+3-Inside folder run install and format data .bat file and wait to finish.
+*********************************
+•Change log: 
+•Rom updated on 2026/2/1.
+•The Rom passes the CTS test by default, use Kaoiros Toolbox.
+********************************
+•New additions: 
+•Rom deodex.
+•Bootloader spoof.
+•File system erofs read only.
+•Added information header to control center. 
+•Added MoveOS menu. 
+•Reordered MoveOS menu.
+•Image added in settings.
+•Added style change in about phone.
+•Added menu for all system icons. 
+•Added change 33 status bar styles. 
+•Fix theme reset.
+•Disable signature verification. (framework patcher).
+•Added screenshot in secure app. (framework patcher).
+•Fix notifications delay. (framework patcher).
+•Implemented maximum FPS in all apps. (Thanks to @MMETMAmods for guide).
+•Added hide privacy icon on camera. (Thanks to @MMETMAmods for the guide).
+•Added Launcher mod by kashi. (Thanks to @ModsCenter).
+•Added PackageInstaller mod by kashi. (Thanks to @ModsCenter).
+•Added 7 notifications icons. (Thanks to @MMETMAmods for guide).
+•Added file manager mod. (Thanks to @llionsmods).
+•Added plugin mod. (Thanks to @EvoMods).
+•Added frame screenshot.
+•Colors have been modified in about the device. (Thanks to @cazymods for the guide).
+•Added new MoveOS logo.
+•Added Security center removed countdown counter.
+•Added new wallpapers.
+•Added YMusic app.
+•Added Brave browser.
+•And more...
+•Added many improvements for stability, battery saving, improved connections and more... 
+
+•Known Bugs: 
+********************************
+•Downloads and support: 
+•Telegram Channel: 
+•MoveOS Rom Zircon Redmi Note 13 Pro+.
+
+•Support: 
+•MoveOS Rom Redmi Note 13 Pro+Support. 
+
+•Rom Version: V6 Global</string>
+    <string name="direct_eq_title">Direct EQ</string>
+    <string name="direct_eq_summary">Earphones equalizer</string>
+    <string name="developer_title">Developer settings</string>
+    <string name="developer_summary">Advanced system options</string>
+    <string name="dpi_default">DPI Set (Default 384)</string>
+    <string name="max_fps_title" compact="false">Max FPS in all apps</string>
+    <string name="max_fps_summary">Enabling this might increase the battery consumption</string>
+    <string name="custom_frame_screenshot_pref">Custom frame screenshot</string>
+    <string name="custom_frame_screenshot_title">Custom frame to screenshot</string>
+    <string name="hide_weather_icon" compact="false">Hide weather icon</string>
+    <string name="icon_styles_title" compact="false">Icon styles</string>
+    <string name="icon_styles_summary" compact="false">New style of icons for networks, batteries, navigation buttons</string>
+    <string name="statusbar_styles_title" compact="false">Status bar settings</string>
+    <string name="statusbar_styles_summ" compact="false">Status bar Styles, battery bar...</string>
+    <string name="battery_bar_pref">Battery bar</string>
+    <string name="battery_bar_summ">Battery bar settings</string>
+    <string name="mezo_ram_summary">Average memory used</string>
+    <string name="hello" compact="false">Hi </string>
+    <string name="about_mezo_title" compact="false">About MoveOS</string>
+    <string name="mezo_last_update_title">Last update</string>
+    <string name="mezo_last_update_summary">View last published update</string>
+    <string name="thanks_user_title">Thanks user</string>
+    <string name="thanks_user_summary">Thanks you very much for using MoveOS on your phone. I hope the experience is to your liking.</string>
+    <string name="mezo_custom_settings_title" compact="false">Custom settings</string>
+    <string name="mm_settings_header_title" compact="false">Settings headers</string>
+    <string name="mezo_custom_settings_summ" compact="false">Customize settings app</string>
+    <string name="list_animations_title" compact="false">List animations</string>
+    <string name="list_animations_summ" compact="false">Animations for menus</string>
+    <string name="mezo_about_phone_title" compact="false">About phone</string>
+    <string name="mezo_about_phone_summ" compact="false">Customize about phone</string>
+    <string name="iconify_menu_title" compact="false">Iconify</string>
+    <string name="iconify_menu_summ" compact="false">Change system icons</string>
+    <string name="mezo_settings_menu_title" compact="false">System</string>
+    <string name="mezo_settings_menu_summ" compact="false">System settings</string>
+    <string name="mezo_misc_menu_title" compact="false">Miscellaneous</string>
+    <string name="mezo_misc_menu_summ" compact="false">Misc. menu</string>
+    <string name="dfs_title">Disable flag secure</string>
+    <string name="dfs_summ">Allow Screenshot in restricted apps</string>
+    <string name="dpc_title">Disable Privacy Chip</string>
+    <string name="dpc_summ">Disable the Camera, Mic &amp;amp; Location privacy chip</string>
+    <string name="background_wallpaper_title" compact="false">Background wallpaper in settings</string>
+    <string name="blur_wallpaper_title" compact="false">Blurry wallpaper</string>
+    <string name="Show_wall_lockscreen_title" compact="false">Show wall/lockscreen</string>
+    <string name="change_mezo_menu_header_title" compact="false">Change header MoveOS menu</string>
+    <string name="hide_settings_header_animation_title" compact="false">Show/Hide settings header animation</string>
+    <string name="show_hide_background_header_blur_title" compact="false">Show/Hide background header blur</string>
+    <string name="blur_header_image_title" compact="false">Blur header image</string>
+    <string name="change_phone_name" compact="false">Change phone name</string>
+    <string name="mod_about_phone_title" compact="false">Customize about the phone</string>
+    <string name="transparent_blur_background_title" compact="false">Transparent/Blur background</string>
+    <string name="change_mini_logo_title" compact="false">Change mini/logo</string>
+    <string name="blur_mini_wallpaper" compact="false">Blur mini wallpaper</string>
+    <string name="weather_clock_info_title" compact="false">Control Center Header</string>
+    <string name="hide_particles_title">Hide particles</string>
+    <string name="mimodui_menu_style">Settings menu style</string>
+    <string name="mezo_hide_header_background" compact="false">Hide header background</string>
+    <string name="mezo_hide_header_animation" compact="false">Hide header animation</string>
+    <string name="mezo_mimodui_menu" compact="false">MoveOS menu</string>
+    <string name="mezo_miscellaneous_settings" compact="false">Miscellaneous settings</string>
+    <string name="mezo_data_saver_summ" compact="false">Data Saver prevents some apps from sending or receiving data in the background</string>
+    <string name="blur_about_info_background" compact="false">Blur about info background</string>
+    <string name="mezo_list_animation" compact="false">List animation</string>
+    <string name="mezo_animation_duration" compact="false">Animation duration</string>
+    <string name="mezo_listview_interpolator" compact="false">Listview interpolator</string>
+    <string name="mezo_listview_animation" compact="false">Listview animation</string>
+    <string name="mezo_rom_changelog_title" compact="false">Rom changelog</string>
+    <string name="mezo_rom_changelog_summ" compact="false">Changes and addon</string>
+    <string name="mezo_official_channel_title" compact="false">Official Channel</string>
+    <string name="mezo_rom_support_title" compact="false">Rom Support</string>
+    <string name="mezo_show_weather_title" compact="false">Show weather</string>
+    <string name="mezo_system_show_city" compact="false">Show city</string>
+    <string name="mezo_system_show_description" compact="false">Show description</string>
+    <string name="mezo_system_show_icon" compact="false">Show icon</string>
+    <string name="mezo_about_hide_clock" compact="false">Show clock about phone mini screen</string>
+    <string name="mezo_about_hide_month" compact="false">Show month about phone mini screen</string>
+    <string name="mezo_about_hide_day" compact="false">Show day about phone mini screen</string>
+    <string name="square_tiles" compact="false">Square tiles</string>
+    <string name="expand_cover" compact="false">Expand cover</string>
+    <string name="vintage_cover" compact="false">Cover tint</string>
+    <string name="vintage_cover_s" compact="false">Enable cover tint</string>
+    <string name="big_clock_title" compact="false">Display large or normal clock</string>
+    <string name="hide_weather_title" compact="false">Hide weather</string>
+    <string name="vowifi_icons_title" compact="false">voWifi icons</string>
+    <string name="big_tiles_title" compact="false">Big tiles</string>
+    <string name="media_player_title" compact="false">Media player</string>
+    <string name="player_background_color_title" compact="false">Enable media player background color</string>
+    <string name="select_color_type_title" compact="false">Select color type</string>
+    <string name="add_two_vowifi_icons_title" compact="false">Add 2 voWifi icons</string>
+    <string name="blue_ratio_title" compact="false">Background blur</string>
+    <string name="my_clock_settings_summary">Customize clock color, size, font etc</string>
+    <string name="my_clock_settings_title">Clock</string>
+    <string name="nav_mezo_styles_tit">Navbar buttons style</string>
+    <string name="net_mezo_st_0">Network</string>
+    <string name="net_mezo_st_1">Customize network icons to your choice</string>
+    <string name="net_mezo_st_10">VoLTE</string>
+    <string name="net_mezo_st_11">VoWifi</string>
+    <string name="net_mezo_st_12">Roaming</string>
+    <string name="net_mezo_st_13">Icons size</string>
+    <string name="net_mezo_st_14">Network icons</string>
+    <string name="net_mezo_st_15">WiFi Icon</string>
+    <string name="net_mezo_st_16">Fonts</string>
+    <string name="net_mezo_st_17">Icons rotation</string>
+    <string name="net_mezo_st_18">Horizontal network type</string>
+    <string name="net_mezo_st_2">Network customizations</string>
+    <string name="net_mezo_st_20">Show SIM icons</string>
+    <string name="net_mezo_st_21">Show Wifi icon</string>
+    <string name="net_mezo_st_22">Show VoLTE icon</string>
+    <string name="net_mezo_st_23">Show VoWifi icon</string>
+    <string name="net_mezo_st_24">Show roaming icon</string>
+    <string name="net_mezo_st_25">Show/Hide network icons</string>
+    <string name="net_mezo_st_26">SIM icons</string>
+    <string name="net_mezo_st_27">Size</string>
+    <string name="net_mezo_st_28">Scale</string>
+    <string name="net_mezo_st_29">Division</string>
+    <string name="net_mezo_st_3">Network colors</string>
+    <string name="net_mezo_st_30">Margin in sim and data icon</string>
+    <string name="net_mezo_st_31">Icons style</string>
+    <string name="control_center_mod_title" compact="false">Control center</string>
+    <string name="control_center_mod_summ" compact="false">Icon shapes, media player...</string>
+    <string name="battery_gradient_color">Gradient color</string>
+    <string name="mezo_sett_menu_device">Device info, Specifications, About phone...</string>
+    <string name="mezo_sett_menu_mezo">Animations, Control center, Status bar, Icons...</string>
+    <string name="mezo_sett_menu_security">Play protect, Security update, Find device</string>
+    <string name="mezo_sett_menu_sys_apps">Update system apps</string>
+    <string name="mezo_sett_menu_wifi">WiFi, Network acceleration, Additional settings</string>
+    <string name="mezo_sett_menu_bluetooth">Bluetooth devices, Audio pair</string>
+    <string name="mezo_sett_menu_sim">Sim Connection, Sim info</string>
+    <string name="mezo_sett_menu_interconnect">Xiaomi environment, Mi devices</string>
+    <string name="mezo_sett_menu_vpn">VPN, Private network</string>
+    <string name="mezo_sett_menu_moreconnect">Nearby devices, Hotspot, NFC, DNS...</string>
+    <string name="mezo_sett_menu_customize">Theme manager, Wallpaper, Icons, Font...</string>
+    <string name="mezo_sett_menu_lock">Lockscreen, Screen timeout, Lockscreen shorcuts</string>
+    <string name="mezo_sett_menu_notify">Notification, StatusBar, Control center</string>
+    <string name="mezo_sett_menu_home">Icons size, Recents, Animation speed...</string>
+    <string name="mezo_sett_menu_display">Brightness, FPS, Display, Dark theme...</string>
+    <string name="mezo_sett_menu_sound">Ringtone, Alarm, Sound effect...</string>
+    <string name="mezo_sett_menu_theme">Wallpaper, Super wallpaper, Aod</string>
+    <string name="mezo_sett_menu_unlock">Fingerprint, Face Lock, Pin...</string>
+    <string name="mezo_sett_menu_emergency">Emergency, SOS, Alerts...</string>
+    <string name="mezo_sett_menu_privacy">Privacy, Second space, Incognito...</string>
+    <string name="mezo_sett_menu_apps">Manager apps, Permissions, App lock</string>
+    <string name="mezo_sett_menu_batt">Battery info, Charging, Performance mode...</string>
+    <string name="mezo_sett_menu_time">Screen off time, App usage</string>
+    <string name="mezo_sett_menu_google">Manage Your Google Accounts!</string>
+    <string name="mezo_sett_menu_moresett">Date &amp; time, Floating window, Memory extension...</string>
+    <string name="mezo_sett_menu_privacity">Accessibility, Privacy panel, Activity...</string>
+    <string name="mezo_sett_menu_location">Location services, GPS...</string>
+    <string name="mezo_sett_menu_cloud">Mi cloud, Accounts</string>
+    <string name="mezo_sett_menu_feed">Feedback, Crash info</string>
+    <string name="mezo_settings_hide_mi_account_title" compact="false">Hide Mi Account</string>
+    <string name="mezo_settings_hide_mi_account_summ" compact="false">Hide Mi Account from the settings page</string>
+    <string name="mezo_theme_server_pref_title" compact="false">Theme server</string>
+    <string name="mezo_appvault_server_title" compact="false">Change app vault server</string>
+    <string name="mezo_appvault_server_summ" compact="false">Chinese or EU server</string>
+    <string name="mezo_theme_server_title" compact="false">Change theme server</string>
+    <string name="mezo_theme_server_summ" compact="false">Global or chinese server</string>
+    <string name="mezo_enable_xiaomi.eu_specs_title" compact="false">Xiaomi.EU Specs</string>
+    <string name="mezo_enable_xiaomi.eu_specs_summ" compact="false">Enable Xiaomi.eu like Specs</string>
+    <string name="my_system_settings_title">System</string>
+    <string name="my_animation_scale_title">Animations</string>
+    <string name="mimodui_about_title">About MoveOS</string>
+    <string name="mimodui_lockscreen_title">Lockscreen</string>
+    <string name="mimodui_misc_menu_title">Misc menu</string>
+    <string name="mimodui_statusbar_title">Status bar</string>
+    <string name="mimodui_about_phone_title">About Mod</string>
+    <string name="my_settings_mod_title">Settings Mod</string>
+    <string name="mimodui_phone_title">Phone</string>
+    <string name="mimodui_misc_title">Miscellaneous</string>
+    <string name="my_contacts_title">My contacts</string>
+    <string name="advanced_settings_statusbar_title2">Status bar</string>
+    <string name="mimodui_control_center_title" compact="false">Control Center</string>
+    <string name="mimodui_notifications_title" compact="false">Notifications</string>
+    <string name="mezo_custom_title_infinity" compact="false">Customize</string>
+    <string name="mezo_power_line_title" compact="false">Power line</string>
+    <string name="kaorios_mezo_settings_title" compact="false">Kaori ToolBox</string>
+    <string name="kaorios_mezo_settings_summ" compact="false">Integrity and Unlock pixel Props</string>
+    <string name="powerline_mezo_settings_title" compact="false">Power Line</string>
+    <string name="powerline_mezo_settings_summ" compact="false">Status bar battery line</string>
+    <string name="header_username_title" compact="false">Header Username</string>
+    <string name="header_username_summ" compact="false">Display username</string>
+    <string name="customize_header_text_title" compact="false">Customize header text</string>
+    <string name="customize_header_text_summ" compact="false">Switch to back default</string>
+    <string name="header_romname_title" compact="false">Header, rom mane</string>
+    <string name="header_romname_summ" compact="false">Show Rom name</string>
+    <string name="free_ram_title">RAM:</string>
+    <string name="clear_ram_pref">Clean RAM memory</string>
+    <string name="buttom_clear_ram_title">Memory clear button</string>
+    <string name="busy_ram_color_title">Busy memory color</string>
+    <string name="free_ram_color_title">Free memory color</string>
+    <string name="system_stats_title">System statistics</string>
+    <string name="free_ram_color">Free RAM color</string>
+    <string name="cpu_temp_title">Show CPU temp</string>
+    <string name="cpu_temp_color">CPU temp color</string>
+    <string name="batt_volt_title">Show battery voltage</string>
+    <string name="batt_volt_color">Battery voltage color</string>
+    <string name="cpu_freq_title">Show CPU frequency</string>
+    <string name="cpu_freq_color">CPU frequency color</string>
+    <string name="fast_reboot_title">Fast reboot</string>
+    <string name="fast_reboot_summary">Full reboot app (need root)</string>
+    <string name="sb_clock_format_title" compact="false">Clock format in status bar</string>
+    <string name="sb_clock_style_title" compact="false">Custom clock format</string>
+    <string name="cc_date_format_title" compact="false">Date format in control center</string>
+    <string name="cc_date_style_title" compact="false">Custom date format</string>
+    <string name="icons_size_title" compact="false">Notifications icons size</string>
+    <string name="hide_battery_icon_title" compact="false">Hide battery icon</string>
+    <string name="sb_interval_netspeed_title" compact="false">Network speed interval</string>
+    <string name="notify_icon_app_color_title" compact="false">Notifications icons color</string>
+    <string name="notify_icon_app_color_summ" compact="false">Change notification icons color</string>
+    <string name="notify_icon_app_color_summ_on" compact="false">Monocrome color</string>
+    <string name="notify_clock_format_title" compact="false">Date format in notification center</string>
+    <string name="cc_volume_bar_display_time_title" compact="false">Volume bar display time</string>
+    <string name="cc_single_panel_title" compact="false">Single panel</string>
+    <string name="cc_extended_panel_title" compact="false">Extended panel</string>
+    <string name="status_bar_adjustm_summ">Statusbar settings for all icons</string>
+    <string name="status_bar_adjustm_title">Statusbar adjustment</string>
+    <string name="status_mezo_st_0">Status icons</string>
+    <string name="status_mezo_st_1">Status icon color, size, offset etc</string>
+    <string name="status_mezo_st_11">Icon size</string>
+    <string name="status_mezo_st_12">Icon scale</string>
+    <string name="status_mezo_st_13">Icon division</string>
+    <string name="status_mezo_st_2">Status icons customizations</string>
+    <string name="status_mezo_st_3">Show status icons</string>
+    <string name="status_mezo_st_4">Configure</string>
+    <string name="status_mezo_st_5">Icon color</string>
+    <string name="status_mezo_st_6">Set black and clear to zero to set as default</string>
+    <string name="text_bat_color_0_title">Color less than 20%</string>
+    <string name="text_bat_color_1_title">Color less than 40%</string>
+    <string name="text_bat_color_2_title">Color less than 60%</string>
+    <string name="text_bat_color_3_title">Color less than 80%</string>
+    <string name="text_bat_color_4_title">Color less than 100%</string>
+    <string name="user_colors_contacts">User colors</string>
+    <string name="user_colors_contacts_default">Default colors</string>
+    <string name="voicemail_mezo_color_title">Voicemail color</string>
+    <string name="weather_mezo_st_0">Weather</string>
+    <string name="weather_mezo_st_1">Weather icon color, size etc</string>
+    <string name="weather_mezo_st_2">Weather customizations</string>
+    <string name="weather_mezo_st_3">Show weather icon</string>
+    <string name="weather_mezo_st_5">Weather color</string>
+    <string name="weather_mezo_st_6">Weather font</string>
+    <string name="weather_mezo_st_7">Weather animation in statusbar</string>
+    <string name="weather_mezo_st_8">Weather division</string>
+    <string name="weather_mezo_st_9">Weather size</string>
+    <string name="mezoo_settings_title">MoveOS シ</string>
+    <string name="mezoo_donate_status_donate_title">You are now a PRO user</string>
+    <string name="mezoo_donate_status_normal_subtitle">Subscribe to become a PRO user</string>
+    <string name="mezoo_donate_status_normal_title">You are PRO User</string>
+    <string name="mezoo_maintainer">MoveOS-Devs</string>
+    <string name="mezoo_donate_status_donate_subtitle">Thanks for supporting us!</string>
+    <string name="mezoo_settings_subtitle">How are you today?</string>
+    <string name="space_ui"> </string>
+    <string name="lab_title">MoveOS Lab</string>
+    <string name="Device_INFO">Device</string>
+    <string name="Device_Summary">Redmi Note 13 Pro Plus 5G</string>
+    <string name="Processor_Title">Processor</string>
+    <string name="Processor_summary">Dimensity 7200 Ultra</string>
+    <string name="Battery_Title">Battery</string>
+    <string name="Battery_Summary">5000mAh - 120w</string>
+    <string name="Screen_Title">Screen</string>
+    <string name="Screen_Summary">"6.67" AMOLED   120hz</string>
+    <string name="Device_Title">Memory</string>
+    <string name="Memory_Summary">12/12GB</string>
+    <string name="Camera_Title">Camera</string>
+    <string name="Camera_Summary">Front 16MP</string>
+    <string name="Camera_Summary2">Rear 200MP+8MP+2MP</string>
+    <string name="card1">Extra</string>
+    <string name="card2">Themes</string>
+    <string name="card3">Miscellaneous</string>
+    <string name="clock_format">"🍒 - emoji
+yyyy - four digit year (2023)
+yy - two digit year (23)
+MMMM - long month (August)
+MMM - short month (Aug)
+MM - two digit month (12)
+M - one digit month (12)
+dd - two digit day (02)
+d - one digit day (2)
+E - short week (Sun)
+EEEE - long week (Sunday)
+a - AM PM
+aa - Morning, Afternoon, Evening
+HH - 24-hour two digit hour (21)
+H - 24-hour one digit hour (21)
+hh - 12-hour two digit hour (09)
+h - 12-hour one digit hour (9)
+mm - two digit minute (09)
+    "</string>
+    <string name="mezo_clock_format">Clock format</string>
+    <string name="mezo_example_format">Time format example</string>
+    <string name="status_bar_clock_style">Status bar clock style</string>
+    <string name="status_bar_clock_style_summary">The color of the style you choose will depend on the wallpaper you have installed.</string>
+    <string name="disable_clock_transition">Disable clock transition</string>
+    <string name="disable_clock_transition_summary">Disable the clock transition between status bar and notifications shade</string>
+    <string name="restart_systemui">Apply settings</string>
+    <string name="advanced_setttings">Advanced settings</string>
+    <string name="hidden_settings">Hidden settings</string>
+    <string name="frame_screen">Screenshot frame</string>
+    <string name="frame_screen_summary">Costum frame screenshot model</string>
+    <string name="max_fps">Max FPS in all apps</string>
+    <string name="privacy_option">Privacy Option</string>
+    <string name="privacy_option_summ">Permissions, Account Activity, Personal Data</string>
+    <string name="app_notifications">App Notifications</string>
+    <string name="app_notifications_summ">Control which apps and devices can read notifications</string>
+    <string name="all_app">All App</string>
+    <string name="all_app_summ">Full settings, all application settings are here</string>
+    <string name="restart_systemui_summ">Apply status bar indent settings</string>
+    <string name="default_dpi">Default DPI</string>
+    <string name="beam_notifications">Beam for Notifications</string>
+    <string name="beam_notifications_summ">Visualize notification sounds and ringtones with a flashlight</string>
+    <string name="disable_flag_secure">Disable Flag Secure</string>
+    <string name="disable_flag_secure_summ">Allow Screenshot in restricted apps</string>
+    <string name="apply_change">Press it to apply all changes</string>
+    <string name="vowifi_summ">Add two tiles for VoWiFi</string>
+    <string name="hide_edit">Hide clock in control panel</string>
+    <string name="hide_edit_summ">Hide clock and buttons in control panel</string>
+    <string name="percentage_size">Battery percentage size</string>
+    <string name="network_delay">Network speed delay</string>
+    <string name="network_delay_summ">Speed update interval from 4 seconds to 1 second</string>
+    <string name="network_size">Speed indicator size</string>
+    <string name="monet_volumebar">Monet Volume Bar</string>
+    <string name="monet_volumebar_summ">Works only when Monet is disabled in the system</string>
+    <string name="mediaplayer_style">Media player style</string>
+    <string name="mediaplayer_style_summ">Media player style in notifications and on the lock screen</string>
+    <string name="monet_settings">Monet settings</string>
+    <string name="mezo_monet_cc">Monet Control Center and Volume Panel</string>
+    <string name="mezo_monet_navbar">Monet Navigation Bar</string>
+    <string name="mezo_big_signal">Big signal type on left side of data icon</string>
+    <string name="mezo_notif_clock">Notification Bar Clock Style</string>
+    <string name="mezo_weather_name">Show city name</string>
+    <string name="mezo_weather_des">Show Weather description</string>
+    <string name="mezo_restart">Show Restart UI button</string>
+    <string name="mezo_reboot">Show Reboot System button</string>
+    <string name="mezo_padding_left">Status bar padding left</string>
+    <string name="mezo_padding_right">Status bar padding right</string>
+    <string name="mezo_padding_top">Status bar padding top</string>
+    <string name="mezo_sett_ver">Hypermezo V5.0</string>
+    <string name="mezo_os">OS3.0.3.0.WOPCNXM</string>
+    <string name="mezo_ver">by @cherlis</string>
+    <string name="mezo_official">Hypermezo Project</string>
+    <string name="mezo_owner">dev by @cherlis</string>
+    <string name="mezo_monet_category">Monet</string>
+    <string name="mezo_netspeed_category">Network Speed Indicator</string>
+    <string name="mezo_battery_category">Battery</string>
+    <string name="mezo_clock_category">Clock</string>
+    <string name="mezo_padding_category">Padding Status Bar</string>
+    <string name="mezo_icons_category">Status Bar Icons</string>
+    <string name="mezo_other_category">Other Settings</string>
+    <string name="mezo_control_category">Control Center</string>
+    <string name="mezo_control2_category">Media Player</string>
+    <string name="mezo_control3_category">Additionally</string>
+    <string name="mezo_control4_category">Edit Button</string>
+    <string name="mezo_power_category">Power Menu</string>
+    <string name="mezo_notif_category">Notification Panel</string>
+    <string name="mezo_animation_category">Animation</string>
+    <string name="mezo_audiobar_category">Visualization</string>
+    <string name="mezo_audiobar2_category">Style: Fading Blocks</string>
+    <string name="mezo_audiobar3_category">Style: Solid Line</string>
+    <string name="mezo_format_category">Clock Format</string>
+    <string name="mezo_notif2_category">Weather</string>
+    <string name="mezo_clock_settings">Clock Setting</string>
+    <string name="sound_visualization">Sound visualization</string>
+    <string name="battery_icon">Battery Icon</string>
+    <string name="battery_icon_summ">Change Battery Icon to Old MIUI</string>
+    <string name="hide_battery_icon">Hide battery icon</string>
+    <string name="percentage_size_in">Percent size inside the icon</string>
+    <string name="power_menu_width">Menu Width</string>
+    <string name="power_menu_height">Menu Height</string>
+    <string name="screen_off_animation">Screen Off Animation</string>
+    <string name="animation_duration">Animation Duration</string>
+    <string name="animation_delay">Animation Delay</string>
+    <string name="squiggly_progress">Squiggly Progress Bar</string>
+    <string name="squiggly_progress_summ">Squiggly Progress Bar in Media Player</string>
+    <string name="enable_visualization">Enable Sound Visualization</string>
+    <string name="enable_visualization_summ">Audio Visualization on Navigation Bar</string>
+    <string name="visualization_style">Visualization Style</string>
+    <string name="visualization_color">Visualization Color</string>
+    <string name="visualization_color_dinamic">Dynamic Color</string>
+    <string name="visualization_color_dinamic_summ">Random Auto Color</string>
+    <string name="visualization_level">Pulsation Level</string>
+    <string name="visualization_width">Pulse Width</string>
+    <string name="visualization_spacing">Pulse Spacing</string>
+    <string name="visualization_block_size">Block Size</string>
+    <string name="visualization_block_spacing">Block Spacing</string>
+    <string name="visualization_lava">Lava Speed</string>
+    <string name="visualization_lines_count">Lines Count</string>
+    <string name="visualization_lines_opacity">Lines Opacity</string>
+    <string name="tiles_style">Tiles Style</string>
+    <string name="tiles_style_summ">Modify the Look of Your Big Tiles</string>
+    <string name="tile_control">Tile Control</string>
+    <string name="tile_color">Tile Color Style</string>
+    <string name="slider_color">Color For Slider</string>
+    <string name="tile_dark_bg">Dark Background Tiles</string>
+    <string name="media_blur">Media Player Blur</string>
+    <string name="media_blur_summ">Active Blur Effect for Media Player</string>
+    <string name="title_custom">Custom Title</string>
+    <string name="title_custom_summ">Active Custom Title for Play History</string>
+    <string name="media_model_name">Model Name</string>
+    <string name="media_model_name_summ">Show Device Name in Media Player</string>
+    <string name="first_tile">First Tile</string>
+    <string name="second_tile">Second Tile</string>
+    <string name="third_tile">Third Tile</string>
+    <string name="fourth_tile">Fourth Tile</string>
+    <string name="sixth_tile">Sixth Tile</string>
+    <string name="seventh_tile">Seventh Tile</string>
+    <string name="eighth_tile">Eighth Tile</string>
+    <string name="tile_number">Tiles Number</string>
+    <string name="tile_label">Tile Label</string>
+    <string name="tile_label_summ">Activate Label for Short Tiles</string>
+    <string name="tile_label_style">Tile Label Style</string>
+    <string name="custom_name">Custom Name</string>
+    <string name="custom_name_summ">Set Custom Title for Edit Button</string>
+    <string name="edit_tile">Edit Tile</string>
+    <string name="edit_tile_summ">Change The Edit Button To Tile Style</string>
+    <string name="edit_title">Edit Title</string>
+    <string name="media_blur_ratio">Media Player Blur Ratio</string>
+    <string name="edit_media_title">Set Media Title</string>
+    <string name="fifth_tile">Fifth Tile</string>
+    <string name="mezo_os_ver">V5.0</string>
+    <string name="monet_settings_summ">Dynamic color scheme</string>
+    <string name="status_bar">Status Bar Settings</string>
+    <string name="dialer_settings">Phone Settings</string>
+    <string name="reboot_spoof">Reboot system to apply</string>
+    <string name="spoof_Integrity">Integrity Pass</string>
+    <string name="spoof_Integrity_summ">Disable to Allow Module Usage with Custom Fingerprint Values</string>
+    <string name="spoof_fps">Unlock FPS in games</string>
+    <string name="spoof_fps_summ">Spoof device for each different game to enable high configuration for certain games</string>
+    <string name="spoof_netflix">Netflix HDR</string>
+    <string name="spoof_netflix_summ">Spoof Netflix Application as Pixel 5A</string>
+    <string name="spoof_play_store">Play Store</string>
+    <string name="spoof_play_store_summ">Spoof Google Play Store as Pixel 9 Pro XL</string>
+    <string name="spoof_title">Spoof Device</string>
+    <string name="spoof_device">Spoof Device</string>
+    <string name="spoof_device_summ">Spoof Google Apps as Pixel 9 Pro XL. Warning: You may receive notifications about the Pixel update. Ignore them!</string>
+    <string name="spoof_google_photo">Google photo unlimited</string>
+    <string name="spoof_google_photo_summ">Enable to use google photo unlimited backup</string>
+    <string name="spoof_snapchat">Snapchat Spoof</string>
+    <string name="spoof_snapchat_summ">Spoof Pixel XL device for Snapchat</string>
+    <string name="clock_cc">Control Center Clock</string>
+    <string name="clock_cc_summ">Show Clock in Control Center</string>
+    <string name="battery_bar">Battery Bar</string>
+    <string name="battery_bar_thickness">Thickness Bar</string>
+    <string name="battery_bar_position">Position Bar</string>
+    <string name="battery_bar_color">Color Bar</string>
+    <string name="battery_bar_reverse_color">Reverse Color</string>
+    <string name="battery_bar_custom_color">Custom Color</string>
+    <string name="battery_bar_charging">Charging Animation</string>
+    <string name="battery_bar_charging_color">Charging Color</string>
+    <string name="battery_bar_custom_charging_color">Custom Charging Color</string>
+    <string name="dialer_screen_call">Full Screen Call</string>
+    <string name="dialer_screen_call_summ">Always Show Full Screen Call Page</string>
+    <string name="dialer_pad">Dial pad</string>
+    <string name="dialer_pad_summ">Show Keyboard When You Open Dialer</string>
+    <string name="dialer_call_confirm">Confirm Dial</string>
+    <string name="dialer_call_confirm_summ">Ask for Confirmation Before Dialing from Call Logs</string>
+    <string name="dialer_brightness">Max Brightness</string>
+    <string name="dialer_brightness_summ">Active Maximum Brightness in Call</string>
+    <string name="dialer_plan">Hide Plan Info</string>
+    <string name="dialer_plan_summ">Hide No Balance Info from Mobile Network</string>
+    <string name="dialer_incoming">After Incoming</string>
+    <string name="dialer_incoming_summ">Select Your Action Option</string>
+    <string name="dialer_outgoing">After Outgoing</string>
+    <string name="dialer_outgoing_summ">Select Your Action Option</string>
+    <string name="dialer_calllog">Call Log</string>
+    <string name="dialer_color_name">Colored Name</string>
+    <string name="dialer_color_name_summ">Enable Colored Name in Call Log"</string>
+    <string name="dialer_select_color">Select Color for Call Logs</string>
+    <string name="dialer_button">Buttons on Call</string>
+    <string name="dialer_button_summ">Hide or Add Button in CallUI Page</string>
+    <string name="dialer_line_button">Two Line Button</string>
+    <string name="dialer_contact_button">Contacts Button</string>
+    <string name="dialer_add_button">Add Button</string>
+    <string name="dialer_note_button">Note Button</string>
+    <string name="dialer_mute_button">Mute Button</string>
+    <string name="dialer_hold_button">Hold Button</string>
+    <string name="dialer_record_button">Record Button</string>
+    <string name="dialer_incoming_color">Incoming Color</string>
+    <string name="dialer_outgoing_color">Outgoing Color</string>
+    <string name="dialer_missed_color">Missed Color</string>
+    <string name="dialer_new_color">New Contact Color</string>
+    <string name="dialer_denied_color">Denied Call Color</string>
+    <string name="dialer_mail_color">Voice Mail Color</string>
+    <string name="eu_specs">Enable Xiaomi.EU Specs</string>
+    <string name="eu_specs_summ">Enable Xiaomi.eu like Specs</string>
+    <string name="force_fps">Unlock higher FPS in games</string>
+    <string name="force_fps_summ">Spoof your device as a different model for specific games to unlock higher FPS</string>
+    <string name="smart_notif">Smart notifications</string>
+    <string name="smart_notif_summ">Unlock Dynamic Notification for More Apps</string>
+    <string name="disable_heads_up">Disable Floating Notifications</string>
+    <string name="privacy_chip">Disable Privacy Chip</string>
+    <string name="privacy_chip_summ">Disable the Camera, Mic, Location privacy chip</string>
+    <string name="info_pref">Informations</string>
+    <string name="mezo_tg">Hypermezo Updates</string>
+    <string name="mezo_tg_summ">Update Channel</string>
+    <string name="mezo_tg_two">Hypermezo Users</string>
+    <string name="mezo_tg_two_summ">Support Group</string>
+    <string name="battery_custom_settings">Battery Settings</string>
+    <string name="battery_settings_summ">Style, Size, Battery Bar</string>
+    <string name="mezo_clock_settings_summ">Style, Size, Format Clock</string>
+    <string name="status_bar_summ">Notification icons, Network speed, Status bar padding</string>
+    <string name="mezo_noti_summ">Style Clock, Smart Notifications, Weather</string>
+    <string name="misc_settings">Misc Settings</string>
+    <string name="misc_settings_summ">Flag Secure, Screenshot, Power Menu</string>
+    <string name="dialer_call">Calls</string>
+    <string name="mezo_widgets">Information Widgets</string>
+    <string name="mezo_ram_widget">RAM</string>
+    <string name="mezo_network_widget">Network</string>
+    <string name="mezo_media_widget">Volume</string>
+    <string name="mezo_weather_widget">Weather</string>
+    <string name="mezo_power_widget">Battery</string>
+    <string name="battery_percentage_icon">Show percentage icon</string>
+    <string name="mezo_widgets_summ">Information Widgets in the notification panel</string>
+    <string name="mezo_navbar">Navigation Bar</string>
+    <string name="mezo_navbar_settings">Setting up Navbar</string>
+    <string name="mezo_navbar_monet">Use Monet Color</string>
+    <string name="mezo_dark_navbar">Dark Color</string>
+    <string name="mezo_dark_navbar_summ">Choose Navigation Dark Color</string>
+    <string name="mezo_light_navbar">Light Color</string>
+    <string name="mezo_light_navbar_summ">Choose Navigation Light Color</string>
+    <string name="mezo_dimen_navbar">Panel Dimensions</string>
+    <string name="mezo_height_navbar">Height</string>
+    <string name="mezo_bottom_navbar">Bottom Indent</string>
+    <string name="mezo_width_navbar">Width</string>
+    <string name="spoof_title_summ">Device Spoof and Patch Features</string>
+    <string name="mezo_icons_style">Status Bar icon settings</string>
+    <string name="mezo_icons_style_summ">Wi-Fi, Signal, VoLTE, VoWiFi and Navbar</string>
+    <string name="mezo_wifi_icon">Wi-Fi icon style</string>
+    <string name="mezo_wifi_icon_summ">Change your style Wi-Fi</string>
+    <string name="mezo_signal_icon">Data icon style</string>
+    <string name="mezo_signal_icon_summ">Change your style Signal</string>
+    <string name="mezo_batt_icon">Battery icon style</string>
+    <string name="mezo_batt_icon_summ">First change the battery icon to "MIUI (Oval)"</string>
+    <string name="mezo_volte_icon">VoLTE icon style</string>
+    <string name="mezo_volte_icon_summ">Change your style VoLTE</string>
+    <string name="mezo_vowifi_icon">VoWiFi icon style</string>
+    <string name="mezo_vowifi_icon_summ">Change your style VoWi-Fi</string>
+    <string name="mezo_navbar_icon">Navigation button style</string>
+    <string name="mezo_navbar_icon_summ">Change your style Navbar</string>
+    <string name="mezo_toast_spoofing_failure">Failed to spoof properties</string>
+    <string name="mezo_toast_spoofing_success">Successfully downloaded pif.json</string>
+    <string name="enable_mezo_pack">Compact icons in the status bar</string>
+    <string name="mezo_media_seekbar">Progress Bar height
+(For the "Default" style only)</string>
+    <string name="mezo_os_two">OS3.0.3.0</string>
+    <string name="mezo_notif_transp">Semi-transparent notifications</string>
+    <string name="mezo_notif_transp_summ">Semi-transparent notification background</string>
+    <string name="mezo_tools1">Spoof Bootloader</string>
+    <string name="mezo_tools_summ1">Spoof locked Bootloader state</string>
+    <string name="mezo_tools2">Select keybox XML to spoof</string>
+    <string name="mezo_tools_summ2">Select the keybox XML file used to spoofing the key attestation in the system. Click delete to reset the keybox data</string>
+    <string name="mezo_tools3">Play Integrity fix</string>
+    <string name="mezo_tools_summ3">Spoof your device to pass Google Play Attestation</string>
+    <string name="mezo_tools4">Play Integrity fix properties</string>
+    <string name="mezo_tools_summ4">Show all currently set PIF properties</string>
+    <string name="mezo_tools5">Update Play Integrity fix</string>
+    <string name="mezo_tools_summ5">Download update PIF spoofing device. Requires internet connection</string>
+    <string name="mezo_tools6">Select PIF JSON file</string>
+    <string name="mezo_tools_summ6">Choose the PIF JSON file to be used to spoof Play Integrity</string>
+    <string name="mezo_tools7">Pixel props</string>
+    <string name="mezo_tools_summ7">Spoof a select group of Google apps to the latest Pixel device</string>
+    <string name="mezo_tools8">Spoof tensor features</string>
+    <string name="mezo_tools_summ8">Unlock tensor/pixel features</string>
+    <string name="mezo_tools9">Storage encryption</string>
+    <string name="mezo_tools_summ9">Spoof the device storage encryption status to 'Encrypted'</string>
+    <string name="mezo_tools10">Google app</string>
+    <string name="mezo_tools_summ10">Spoof the Google app to the latest Pixel device to unlock exclusive features</string>
+    <string name="mezo_tools11">Play Store</string>
+    <string name="mezo_tools_summ11">Spoof the Play Store to the latest Pixel device</string>
+    <string name="mezo_tools12">Google Photos</string>
+    <string name="mezo_tools_summ12">Spoof the Google Photos app as a Pixel XL</string>
+    <string name="mezo_tools13">Unlock higher FPS in games</string>
+    <string name="mezo_tools_summ13">Spoof your device as different model for specific games to unlock higher FPS</string>
+    <string name="mezo_tools14">Snapchat</string>
+    <string name="mezo_tools_summ14">Spoof Snapchat as a Pixel XL to fix possible chat issues</string>
+    <string name="mezo_media_text">Text font size</string>
+    <string name="mezo_media_text_title">Title</string>
+    <string name="mezo_media_text_artist">Artist</string>
+    <string name="mezo_media_text_time">Time</string>
+    <string name="mezo_media_thumb">Seekbar thumb style</string>
+    <string name="mezo_media_progress">Seekbar progress style</string>
+    <string name="mezo_media_bg">Background customisations</string>
+    <string name="mezo_media_bg_style">Media background style</string>
+    <string name="mezo_media_layout">Layout customisations</string>
+    <string name="mezo_media_order">Media player actions order</string>
+    <string name="mezo_media_colors">Media player colors</string>
+    <string name="mezo_media_color_progress">Seekbar progress color</string>
+    <string name="mezo_media_color_thumb">Seekbar thumb color</string>
+    <string name="mezo_cc_big">Setting up big tiles</string>
+    <string name="mezo_cc_big_customise">Tap here to customise</string>
+    <string name="mezo_cc_big_customise_summ">Or try long-pressing Edit button in Control Center</string>
+    <string name="mezo_cc_clock">Control Center Clock</string>
+    <string name="mezo_cc_hide">Hide Buttons</string>
+    <string name="mezo_cc_hide_edit">Hide Edit Button</string>
+    <string name="mezo_cc_hide_settings">Hide Settings Button</string>
+    <string name="mezo_cc_hide_power">Hide PowerMenu Button</string>
+    <string name="mezo_cc_hide_restart">Hide Restart Button</string>
+    <string name="mezo_cc_hide_weather">Hide Weather info</string>
+    <string name="mezo_cc_power">Enable Extended Power Menu</string>
+    <string name="mezo_cc_media">Expand Media Player</string>
+    <string name="mezo_cc_media_summ">Expand Media Image In Control Center</string>
+    <string name="mezo_cc_name">Device Name</string>
+    <string name="mezo_cc_name_summ">Disable Device Name in Control Center</string>
+    <string name="mezo_cc_media_black">Black Cover Anciently</string>
+    <string name="mezo_cc_media_black_summ">Disable Black Cover Anciently in Expand Media Player</string>
+    <string name="mezo_cc_media_icon">Empty Music Icon</string>
+    <string name="mezo_cc_media_icon_summ">Remove Empty Music Icon in Media Player</string>
+    <string name="mezo_cc_super">Super Volume</string>
+    <string name="mezo_cc_super_summ">Enable Super Volume and Voice nRestart SystemUi To Apply</string>
+    <string name="mezo_cc_blur">Control Center Blur</string>
+    <string name="mezo_cc_colors">Control Center colors</string>
+    <string name="mezo_cc_colors_small">Customize small tiles</string>
+    <string name="mezo_cc_colors_small_icon">Tile icon</string>
+    <string name="mezo_cc_colors_small_bg">Tile background</string>
+    <string name="mezo_cc_colors_big">Customize big tiles</string>
+    <string name="mezo_cc_colors_big_icon">Tile icon</string>
+    <string name="mezo_cc_colors_big_text">Tile text</string>
+    <string name="mezo_cc_colors_big_bg">Tile background</string>
+    <string name="mezo_cc_colors_slider">Customize slider colors</string>
+    <string name="mezo_cc_colors_slider_bg">Slider background</string>
+    <string name="mezo_cc_colors_slider_progress">Slider progress</string>
+    <string name="mezo_restart_systemui">Restart SystemUI To Apply</string>
+    <string name="mezo_volume_bar">Volume Bar</string>
+    <string name="mezo_volume_hide_mute">Hide Mute button</string>
+    <string name="mezo_volume_hide_dnd">Hide DND button</string>
+    <string name="mezo_volume_hide_summ">Works when volume bar is collapsed</string>
+    <string name="mezo_volume_aosp">AOSP Volume bar</string>
+    <string name="mezo_aosp_clipboard">Unlock AOSP clipboard editor</string>
+    <string name="mezo_media_seekbar_summ">For the "Default" style only</string>
+    <string name="mezo_cc_colors_summ">Before applying colors, disable Monet Control Center</string>
+    <string name="mezo_island">Dynamic Island</string>
+    <string name="mezo_island_summ">Enable Default Island</string>
+    <string name="mezo_island_ios">iOS Dynamic Island</string>
+    <string name="mezo_island_ios_summ">Enable iOS Dynamic Island</string>
+    <string name="mezo_island_earlier">Disable "Earlier Notifications"</string>
+    <string name="mezo_island_earlier_summ">Don't Group Old Notifications into "Earlier Notifications"</string>
+    <string name="mezo_island_bg">Island Background</string>
+    <string name="mezo_island_bg_summ">Customize Dynamic Island Background Color</string>
+    <string name="fixing_icons">Fixing icons in the status bar</string>
+    <string name="fixing_icons_summ">The setup is performed only once after installing the ROM with data clearing</string>
+    <string name="fixing_icons_two">Move all sliders to the right and left once to adjust the position of the icons in the status bar</string>
+    <string name="quick_launch_panel">Quick Launch Panel</string>
+    <string name="quick_launch_captions">Show app captions</string>
+    <string name="quick_launch_captions_color">Color of captions</string>
+    <string name="widgets">Widgets</string>
+    <string name="mezo_charging_style">Charging Animation</string>
+    <string name="mezo_charging_style_summ">Change the charging animation style</string>
+    <string name="mezo_notch_style">Camera Cutout Style</string>
+    <string name="mezo_notch_style_summ">Change the camera cutout style</string>
+    <string name="mezo_icons_style_two">Charging Animation style</string>
+    <string name="lockscreen">LockScreen</string>
+    <string name="charging_info">Detailed Charging Info</string>
+    <string name="charging_info_summ">Shows Temp, Current, Voltage and Power on Lockscreen</string>
+    <string name="refresh_interval">Refresh interval</string>
+    <string name="show_temperature">Show temperature</string>
+    <string name="show_temperature_summ">In degree Celcius</string>
+    <string name="show_current">Show current</string>
+    <string name="show_current_summ">In ampere (A)</string>
+    <string name="show_voltage">Show voltage</string>
+    <string name="show_voltage_summ">In volt (V)</string>
+    <string name="show_power">Show power</string>
+    <string name="show_power_summ">In watt (W)</string>
+    <string name="mezo_dts">Double tap on status bar</string>
+    <string name="mezo_dts_summ">Double tap on status bar turns off the screen</string>
+    <string name="show_charging_mode">Show charging mode</string>
+    <string name="charging_info_text">Text size</string>
+    <string name="island_notif_bg">Pop-up notification background color</string>
+    <string name="island_bg">Island background color</string>
+    <string name="island_width">Island width</string>
+    <string name="island_vertical">Island vertical offset</string>
+    <string name="island_category">Dynamic Island</string>
+    <string name="notif_icon_size">Notification icon size</string>
+    <string name="clock">Clock</string>
+    <string name="clock_cat">Clock</string>
+    <string name="clock_date_display">Date</string>
+    <string name="clock_date_display_none">Don't show</string>
+    <string name="clock_date_display_normal">Normal font size</string>
+    <string name="clock_date_display_small">Small font size</string>
+    <string name="clock_date_display_summary">Display custom date before the clock</string>
+    <string name="clock_date_format">Date format</string>
+    <string name="clock_date_format_custom">Custom java format</string>
+    <string name="clock_date_format_summary">%1$s</string>
+    <string name="clock_date_left">Left of time</string>
+    <string name="clock_date_position">Date position</string>
+    <string name="clock_date_right">Right of time</string>
+    <string name="clock_date_string_edittext_summary">Enter string</string>
+    <string name="clock_date_string_edittext_title">Must be in DateFormat eg. MM/dd/yy</string>
+    <string name="clock_date_style">Date style</string>
+    <string name="clock_date_style_lowercase">Lowercase</string>
+    <string name="clock_date_style_normal">Normal</string>
+    <string name="clock_date_style_uppercase">Uppercase</string>
+    <string name="clock_seconds_display">Show seconds</string>
+    <string name="status_bar_clock_color_title">Font color</string>
+    <string name="status_bar_clock_font_size_title">Font size</string>
+    <string name="status_bar_clock_font_style_summary">%1$s</string>
+    <string name="status_bar_clock_font_style_title">Font style</string>
+    <string name="status_bar_clock_show">Show clock and date</string>
+    <string name="status_bar_clock_style_center">Center</string>
+    <string name="status_bar_clock_style_left">Left</string>
+    <string name="status_bar_clock_style_right">Right</string>
+    <string name="status_bar_clock_style_title">Clock style</string>
+    <string name="status_bar_clock_summary">Customize clock and date in statusbar</string>
+    <string name="status_bar_clock_title">Clock settings</string>
+    <string name="statusbar_clock">Clock</string>
+    <string name="show_carrier_disabled">Disabled</string>
+    <string name="rr_header_title">Header</string>
+    <string name="rr_header_summary">Customize various elements in header</string>
+    <string name="qs_header_items_title">Header items</string>
+    <string name="status_bar_custom_header_title">Custom header image</string>
+    <string name="status_bar_custom_header_summary">Enable notification panel header image</string>
+    <string name="daylight_header_pack_title">Header image pack</string>
+    <string name="status_bar_custom_header_shadow_title">Header image shadow</string>
+    <string name="status_bar_custom_header_shadow_summary">For better visibility on bright images</string>
+    <string name="static_header_provider">static</string>
+    <string name="daylight_header_provider">daylight</string>
+    <string name="static_header_provider_title">Static</string>
+    <string name="daylight_header_provider_title">Dynamic</string>
+    <string name="custom_header_provider_title">Header provider</string>
+    <string name="custom_header_browse_title">Browse installed headers</string>
+    <string name="custom_header_browse_summary">Long press on any image to use for static mode</string>
+    <string name="bg_notice_summary">To control the settings of On Of and set the BackGround transparency ... Go to the Custom Expanded Interface...And how to Set the header image Select the Header Provider set to Static ... And To Select the Image Click Browse installed headers ... And select the image as you like and Long press on the image to set it ...</string>
+    <string name="header_image_cat_title">Header image</string>
+    <string name="header_image_title">Enable header image</string>
+    <string name="header_image_scaletype_title">Scale type</string>
+    <string name="header_image_shadow_title">Header image shadow</string>
+    <string name="about_pulse">About pulse</string>
+    <string name="pulse_title">Pulse is brilliant equalizer bar style audio visualization on the Navigation bar when music plays. Pulse does not work with some audio sources when listening on device speaker</string>
+    <string name="show_pulse">Show pulse</string>
+    <string name="pulse_visualization">Audio visualization on the Navigation bar</string>
+    <string name="pulse_lava_lamp">Turn on lava lamp</string>
+    <string name="lava_lamp_on">Enable a smooth lava lamp style color blend animation</string>
+    <string name="lava_lamp_off">Disable to use a smooth lava lamp style color blend animation</string>
+    <string name="pulse_color">Pulse color</string>
+    <string name="gerimis_mode">Choose mode</string>
+    <string name="sanity_level">Sanity level</string>
+    <string name="pulse_width">Pulse bar width</string>
+    <string name="pulse_spacing">Pulse bar spacing</string>
+    <string name="block_size">Block size</string>
+    <string name="block_spacing">Block spacing</string>
+    <string name="lava_speed">Lava lamp speed</string>
+    <string name="lines_count">Lines count</string>
+    <string name="lines_opacity">Lines opacity</string>
+    <string name="fadingblocks_mode_settings">Fading mode</string>
+    <string name="solidline_mode_settings">Solid Mode</string>
+    <string name="mezo_error_loading_properties">Error loading PIF properties</string>
+    <string name="dirtytweaks_title">New Project</string>
+    <string name="MRT_sumary">M•E•Z•O Gank Mod</string>
+    <string name="bg_jam_titile">Clock Bacground</string>
+    <string name="bg_jamsum">Only works in statusbar styles 1 and 3</string>
+    <string name="interface_mezo_title">Interface type</string>
+    <string name="wp_mezo_title">Enable background interface</string>
+    <string name="sb_mezo_title">Status bar style options</string>
+    <string name="cip_mezo_title">Select clock background style</string>
+    <string name="omni_mezo_title">Image and clock for title table</string>
+    <string name="pulse_mezo_title">Grafix music visualizer</string>
+    <string name="sb_padding_mezo_title">status bar padding</string>
+    <string name="batre_mezo_title">battery location on status bar</string>
+    <string name="sb_icon_mezo_title">Limit icon size and number of icons</string>
+    <string name="dis_mezo_title">dynamic island</string>
+    <string name="dis_ios_mezo_title">Dynamic island like iOS</string>
+    <string name="dis_color_mezo_title">Dynamic colors for iOS</string>
+    <string name="max_icon_mezo_title">Maximum symbols are displayed</string>
+    <string name="sis_icon_mezo_title">icon size</string>
+    <string name="header_clok_mezo_title">Clock style option for header panel.</string>
+    <string name="color_on_jam_header_mezo_title">Activate colors for free</string>
+    <string name="QS_background_border_color_title">Toggles corner color</string>
+    <string name="font_clok_mezo_title">font style for header clock</string>
+    <string name="theme_settings_mezo_sumary">10 theme styles for settings</string>
+    <string name="wp_settings_mezo_title">Set wallpaper color</string>
+    <string name="battery_medoset_0">Battery</string>
+    <string name="battery_medoset_1">Customize battery view icon, size, color etc</string>
+    <string name="battery_medoset_10">Color and shadows</string>
+    <string name="battery_medoset_11">Font percent charge</string>
+    <string name="battery_medoset_12">Show percent icon</string>
+    <string name="battery_medoset_13">Color of percent inside battery</string>
+    <string name="battery_medoset_14">Charging indicator</string>
+    <string name="battery_medoset_15">Fonts</string>
+    <string name="battery_medoset_16">Battery icon style</string>
+    <string name="battery_medoset_2">Icon appearance and style</string>
+    <string name="battery_medoset_21">Show battery icon</string>
+    <string name="battery_medoset_22">Size</string>
+    <string name="battery_medoset_23">Scale</string>
+    <string name="battery_medoset_24">Division</string>
+    <string name="battery_medoset_25">Custom percent icon settings</string>
+    <string name="battery_medoset_26">Battery percentage font</string>
+    <string name="battery_medoset_27">Show battery percent icon</string>
+    <string name="battery_medoset_28">Some additional settings</string>
+    <string name="battery_medoset_29">Percent icon color</string>
+    <string name="battery_medoset_3">Battery customizations</string>
+    <string name="battery_medoset_30">Battery icon style</string>
+    <string name="battery_medoset_31">Select Oval battery icon style first</string>
+    <string name="battery_medoset_4">Battery style</string>
+    <string name="battery_medoset_5">Icon and percent dimensions</string>
+    <string name="battery_medoset_6">Icon measurements</string>
+    <string name="battery_medoset_7">Percent measurements</string>
+    <string name="battery_medoset_8">Charge indicator measurements</string>
+    <string name="battery_medoset_9">Percentage size inside icon</string>
+    <string name="clock_notif_hdr_13">Date Format</string>
+    <string name="clock_notif_hdr_14">Settings icon</string>
+    <string name="clock_notif_hdr_15">Scale</string>
+    <string name="clock_notif_hdr_16">Statusbar clock</string>
+    <string name="clock_notif_hdr_2">Size</string>
+    <string name="clock_notif_hdr_3">Division</string>
+    <string name="clock_notif_hdr_4">Color</string>
+    <string name="clock_notif_hdr_5">Blinking dots</string>
+    <string name="clock_notif_hdr_6">Enabled</string>
+    <string name="clock_notif_hdr_7">Disabled</string>
+    <string name="clock_notif_hdr_8">Digits change animation</string>
+    <string name="clock_notif_hdr_9">Show seconds</string>
+    <string name="date_medo_st_0">Date</string>
+    <string name="date_medo_st_1">Date color, size, offset etc</string>
+    <string name="date_medo_st_2">Date customizations</string>
+    <string name="date_medo_st_3">Show date</string>
+    <string name="date_medo_st_4">Configure</string>
+    <string name="date_medo_st_5">Date format</string>
+    <string name="date_medo_st_6">Color</string>
+    <string name="date_medo_st_7">Font</string>
+    <string name="date_medo_st_8">Date size</string>
+    <string name="date_medo_st_9">Date division</string>
+    <string name="medo_apps_spoof_summ">Unlimited photos, max fps for games and more</string>
+    <string name="medo_apps_spoof_tit">Apps/Games Spoofing</string>
+    <string name="medo_blog_summary">Always updated with latest news</string>
+    <string name="medo_blog_title">MEZO Development Web</string>
+    <string name="medo_cc_style_tit">CC Style choice (UI restart required)</string>
+    <string name="medo_dev_title">MEZO Development Project</string>
+    <string name="medo_dev_title_summ">Web, info, social, Plus/Paid version details</string>
+    <string name="medo_games_spoof_summ">Spoof the device as different model for some games to unlock higher FPS</string>
+    <string name="medo_games_spoof_tit">Unlock high FPS in many games</string>
+    <string name="medo_notif_anim_1">Notifications customizations</string>
+    <string name="medo_notif_anim_10">Background, center color</string>
+    <string name="medo_notif_anim_11">Background, end color</string>
+    <string name="medo_notif_anim_12">Border color</string>
+    <string name="medo_notif_anim_13">Border width</string>
+    <string name="medo_notif_anim_14">Corner radius</string>
+    <string name="medo_notif_anim_15">For single and multiple notifications</string>
+    <string name="medo_notif_anim_16">Blur level</string>
+    <string name="medo_notif_anim_17">Image background</string>
+    <string name="medo_notif_anim_18">Image selection</string>
+    <string name="medo_notif_anim_19">Notification animations settings</string>
+    <string name="medo_notif_anim_2">Enable animation</string>
+    <string name="medo_notif_anim_20">Notification content animation</string>
+    <string name="medo_notif_anim_21">Repeat animation</string>
+    <string name="medo_notif_anim_3">Animation style</string>
+    <string name="medo_notif_anim_4">Animation interpolator</string>
+    <string name="medo_notif_anim_5">Animation duration</string>
+    <string name="medo_notif_anim_6">Notifications background customizations</string>
+    <string name="medo_notif_anim_7">Turn it off for stock like view</string>
+    <string name="medo_notif_anim_8">Notification background</string>
+    <string name="medo_notif_anim_9">Background, start color</string>
+    <string name="medo_notif_anim_summ">Customize notif appearing style</string>
+    <string name="medo_photos_spoof_summ">Spoof the Google Photos app as Pixel XL</string>
+    <string name="medo_photos_spoof_tit">Unlimited Google Photos storage</string>
+    <string name="medo_plus_details">Install chrome to view details about it</string>
+    <string name="medo_plus_title">Unlock MoveOSRomPlus full Customizations</string>
+    <string name="medo_settings_title">MoveOS Customizations</string>
+    <string name="medo_upd_channel">Updates Channel</string>
+    <string name="medo_upd_channel_summary">MoveOSRoms updates, news on TG</string>
+    <string name="fod_medo_styles_tit">Fod icon</string>
+    <string name="hidden_settings_medo">Some Hidden settings</string>
+    <string name="hyperos_oos_style_medo">About info page changes</string>
+    <string name="hyperos_oos_style_medo_0">Use OOS About page</string>
+    <string name="hyperos_oos_style_medo_1">Using OOS style</string>
+    <string name="hyperos_oos_style_medo_2">Using HyperOS style</string>
+    <string name="iback_medo_st_0">Background of statubar icons</string>
+    <string name="iback_medo_st_1">Configure background of statusbar icons</string>
+    <string name="iback_medo_st_10">Bottom margin</string>
+    <string name="iback_medo_st_11">Top margin</string>
+    <string name="iback_medo_st_12">Border width</string>
+    <string name="iback_medo_st_13">Start color</string>
+    <string name="iback_medo_st_14">End color</string>
+    <string name="iback_medo_st_15">Border color</string>
+    <string name="iback_medo_st_16">Round top left corner</string>
+    <string name="iback_medo_st_17">Round top right corner</string>
+    <string name="iback_medo_st_18">Round bottom left corner</string>
+    <string name="iback_medo_st_19">Round bottom right corner</string>
+    <string name="iback_medo_st_2">Statusbar icons background customizations</string>
+    <string name="iback_medo_st_20">Battery</string>
+    <string name="iback_medo_st_21">SIM 1</string>
+    <string name="iback_medo_st_22">SIM 2</string>
+    <string name="iback_medo_st_23">Wifi</string>
+    <string name="iback_medo_st_24">Network Speed</string>
+    <string name="iback_medo_st_25">Notification icon</string>
+    <string name="iback_medo_st_26">Status icon</string>
+    <string name="iback_medo_st_27">Weather</string>
+    <string name="iback_medo_st_28">Date</string>
+    <string name="iback_medo_st_29">Prompt icon</string>
+    <string name="iback_medo_st_3">Clock</string>
+    <string name="iback_medo_st_4">Configure background as you like</string>
+    <string name="iback_medo_st_5">Background and margin config</string>
+    <string name="iback_medo_st_6">Left margin</string>
+    <string name="iback_medo_st_7">Right margin</string>
+    <string name="iback_medo_st_8">Left padding and frame offset</string>
+    <string name="iback_medo_st_9">Right padding and frame offset</string>
+    <string name="icon_medo_app_color_title">Colored notification icons</string>
+    <string name="incoming_medo_color_title">Incoming call color</string>
+    <string name="launcher_medo_2">Endless scrolling desktop</string>
+    <string name="launcher_medo_21">Color of icons and folder labels</string>
+    <string name="launcher_medo_3">Close folders automatically</string>
+    <string name="launcher_medo_4">Max icons in dock</string>
+    <string name="launcher_medo_5">App opening speed</string>
+    <string name="launcher_medo_6">Default behavior</string>
+    <string name="launcher_medo_7">Always show animation</string>
+    <string name="launcher_medo_8">Never show animation</string>
+    <string name="launcher_medo_9">Pinned apps / Lock to app</string>
+    <string name="launcher_medo_nounlockanim_title">Unlocking animation style</string>
+    <string name="lock_medo_battery_0">Show battery information on lockscreen</string>
+    <string name="lock_medo_battery_1">Charging details</string>
+    <string name="lock_medo_battery_10">In volts (V)</string>
+    <string name="lock_medo_battery_11">Show power</string>
+    <string name="lock_medo_battery_12">In watts (W)</string>
+    <string name="lock_medo_battery_13">Update interval</string>
+    <string name="lock_medo_battery_14">Restart SystemUI to apply changes</string>
+    <string name="lock_medo_battery_15">Text size</string>
+    <string name="lock_medo_battery_2">Shows temperature, current, voltage and power on lockscreen</string>
+    <string name="lock_medo_battery_3">Show temperature</string>
+    <string name="lock_medo_battery_4">In celsius degree</string>
+    <string name="lock_medo_battery_5">Show original charging text</string>
+    <string name="lock_medo_battery_6">Charging %</string>
+    <string name="lock_medo_battery_7">Show current ampere</string>
+    <string name="lock_medo_battery_8">In ampere (A)</string>
+    <string name="lock_medo_battery_9">Show voltage</string>
+    <string name="lock_medo_settings_summ">Lockscreen options and customizations</string>
+    <string name="lock_medo_settings_title">Lockscreen</string>
+    <string name="lock_max_fps_medo_j_title">Force 120hz in games</string>
+    <string name="lock_max_fps_medo_j_title2">Disable joyose cloud control</string>
+    <string name="lock_max_fps_medo_title">Lock refresh rate</string>
+    <string name="lock_max_fps_medo_title2">Keep same refresh rate across all apps</string>
+    <string name="menu_clr_medo_0">Seekbar/Progress bar</string>
+    <string name="menu_clr_medo_1">Checkbox On</string>
+    <string name="menu_clr_medo_2">Checkbox Off</string>
+    <string name="menu_clr_medo_3">Checkbox background On</string>
+    <string name="menu_clr_medo_4">Checkbox background Off</string>
+    <string name="menu_clr_medo_99">Colors for seekbars and checkboxes</string>
+    <string name="menu_medo_st_0">Settings menu style</string>
+    <string name="menu_medo_st_1">Change menu's look as you like</string>
+    <string name="menu_medo_st_2">Tiling views in MoveOS settings</string>
+    <string name="menu_medo_st_3">Main menu's style</string>
+    <string name="menu_medo_st_4">Statusbar settings style</string>
+    <string name="menu_medo_st_5">Menu's frame width</string>
+    <string name="menu_medo_st_6">Menu's frame color light mode</string>
+    <string name="menu_medo_st_7">Menu's frame color dark mode</string>
+    <string name="missed_medo_color_title">Missed call color</string>
+    <string name="nav_medo_styles_tit">Navbar buttons style</string>
+    <string name="net_medo_st_0">Network</string>
+    <string name="net_medo_st_1">Customize network icons to your choice</string>
+    <string name="net_medo_st_10">VoLTE</string>
+    <string name="net_medo_st_11">VoWifi</string>
+    <string name="net_medo_st_12">Roaming</string>
+    <string name="net_medo_st_13">Icons size</string>
+    <string name="net_medo_st_14">Network icons</string>
+    <string name="net_medo_st_15">WiFi Icon</string>
+    <string name="net_medo_st_16">Fonts</string>
+    <string name="net_medo_st_17">Icons rotation</string>
+    <string name="net_medo_st_18">Horizontal network type</string>
+    <string name="net_medo_st_2">Network customizations</string>
+    <string name="net_medo_st_20">Show SIM icons</string>
+    <string name="net_medo_st_21">Show Wifi icon</string>
+    <string name="net_medo_st_22">Show VoLTE icon</string>
+    <string name="net_medo_st_23">Show VoWifi icon</string>
+    <string name="net_medo_st_24">Show roaming icon</string>
+    <string name="net_medo_st_25">Show/Hide network icons</string>
+    <string name="net_medo_st_26">SIM icons</string>
+    <string name="net_medo_st_27">Size</string>
+    <string name="net_medo_st_28">Scale</string>
+    <string name="net_medo_st_29">Division</string>
+    <string name="net_medo_st_3">Network colors</string>
+    <string name="net_medo_st_30">Margin in sim and data icon</string>
+    <string name="net_medo_st_31">Icons style</string>
+    <string name="net_medo_st_32">Wifi icon style</string>
+    <string name="net_medo_st_33">Signals icon style</string>
+    <string name="net_medo_st_34">VoWifi icon style</string>
+    <string name="net_medo_st_35">VoLTE icon style</string>
+    <string name="net_medo_st_4">SIM 1</string>
+    <string name="net_medo_st_5">SIM 2</string>
+    <string name="net_medo_st_6">WiFi</string>
+    <string name="net_medo_st_7">WiFi arrows</string>
+    <string name="net_medo_st_8">Network type</string>
+    <string name="net_medo_st_9">Network type arrow</string>
+    <string name="netspeed_medo_st_0">Netspeed</string>
+    <string name="netspeed_medo_st_1">Netspeed color, size, offset etc</string>
+    <string name="netspeed_medo_st_10">Netspeed referesh interval</string>
+    <string name="netspeed_medo_st_11">Show netspeed on CC/lockscreen</string>
+    <string name="netspeed_medo_st_2">Netspeed customizations</string>
+    <string name="netspeed_medo_st_3">Configure</string>
+    <string name="netspeed_medo_st_4">Color</string>
+    <string name="netspeed_medo_st_5">Font</string>
+    <string name="netspeed_medo_st_6">Netspeed style</string>
+    <string name="netspeed_medo_st_7">Size</string>
+    <string name="netspeed_medo_st_8">Division</string>
+    <string name="netspeed_medo_st_9">Vertical height</string>
+    <string name="new_batterybar_medo_tit_1">Battery bar settings</string>
+    <string name="new_batterybar_medo_tit_10">Color from middle</string>
+    <string name="new_batterybar_medo_tit_11">Primary color around edges</string>
+    <string name="new_batterybar_medo_tit_12">Choose color</string>
+    <string name="new_batterybar_medo_tit_13">On</string>
+    <string name="new_batterybar_medo_tit_14">Off</string>
+    <string name="new_batterybar_medo_tit_15">Shade color around edges</string>
+    <string name="new_batterybar_medo_tit_2">Show battery bar on statusbar</string>
+    <string name="new_batterybar_medo_tit_3">Animate while charging</string>
+    <string name="new_batterybar_medo_tit_4">Bar tyle</string>
+    <string name="new_batterybar_medo_tit_5">Bar thickness</string>
+    <string name="new_batterybar_medo_tit_6">Bar color</string>
+    <string name="new_batterybar_medo_tit_7">Bar charging color</string>
+    <string name="new_batterybar_medo_tit_8">Bar low charge warning color</string>
+    <string name="new_batterybar_medo_tit_9">Gradient color</string>
+    <string name="notif_medo_st_0">Notification icons</string>
+    <string name="notif_medo_st_1">Notification icon color, size, offset etc</string>
+    <string name="notif_medo_st_10">Sort notification icons in reverse order</string>
+    <string name="notif_medo_st_2">Notification icon customizations</string>
+    <string name="notif_medo_st_3">Configure</string>
+    <string name="notif_medo_st_4">Number of notification icons</string>
+    <string name="notif_medo_st_5">Icon color</string>
+    <string name="notif_medo_st_6">Set black and clear to zero to set as default</string>
+    <string name="notif_medo_st_7">Icons size</string>
+    <string name="notif_medo_st_8">Icons scale</string>
+    <string name="notif_medo_st_9">Icons division</string>
+    <string name="outgoing_medo_color_title">Outgoing call color</string>
+    <string name="privacy_medo_dot_summ">Show or hide privacy icons while accessing camera, mic etc</string>
+    <string name="privacy_medo_dot_title">Privacy dots and icons</string>
+    <string name="prompt_medo_st_0">Prompt icon</string>
+    <string name="prompt_medo_st_1">Icon appear while calling etc</string>
+    <string name="prompt_medo_st_2">Icon scale</string>
+    <string name="prompt_medo_st_3">Icon division</string>
+    <string name="rejected_medo_color_title">Rejected call color</string>
+    <string name="resize_medo_st_0">Resize statusbar</string>
+    <string name="resize_medo_st_1">Notch/cutout/corners size etc</string>
+    <string name="resize_medo_st_10">Position of camera</string>
+    <string name="resize_medo_st_11">Position of first element</string>
+    <string name="resize_medo_st_12">Maximum width of left camera</string>
+    <string name="resize_medo_st_13">Notch Settings</string>
+    <string name="resize_medo_st_14">Left camera notch settings</string>
+    <string name="resize_medo_st_15">Maximum width of left camera</string>
+    <string name="resize_medo_st_16">Remove camera</string>
+    <string name="resize_medo_st_17">Show center element when island is open</string>
+    <string name="resize_medo_st_2">Statusbar resizing customizations</string>
+    <string name="resize_medo_st_3">Statusbar height (90)</string>
+    <string name="resize_medo_st_4">Reboot device after adjustment</string>
+    <string name="resize_medo_st_5">Camera width (80)</string>
+    <string name="resize_medo_st_6">Margin from corners, top line (40)</string>
+    <string name="resize_medo_st_7">Margin from left/right (35)</string>
+    <string name="resize_medo_st_8">Margin from top (3 for DSB)(30 for single)</string>
+    <string name="resize_medo_st_9">Camera location on screen</string>
+    <string name="status_medo_st_0">Status icons</string>
+    <string name="status_medo_st_1">Status icon color, size, offset etc</string>
+    <string name="status_medo_st_11">Icon size</string>
+    <string name="status_medo_st_12">Icon scale</string>
+    <string name="status_medo_st_13">Icon division</string>
+    <string name="status_medo_st_2">Status icons customizations</string>
+    <string name="status_medo_st_3">Show status icons</string>
+    <string name="status_medo_st_4">Configure</string>
+    <string name="status_medo_st_5">Icon color</string>
+    <string name="status_medo_st_6">Set black and clear to zero to set as default</string>
+    <string name="themes_server_medo_title">Themes server</string>
+    <string name="voicemail_medo_color_title">Voicemail color</string>
+    <string name="weather_medo_st_0">Weather</string>
+    <string name="weather_medo_st_1">Weather icon color, size etc</string>
+    <string name="weather_medo_st_2">Weather customizations</string>
+    <string name="weather_medo_st_3">Show weather icon</string>
+    <string name="weather_medo_st_5">Weather color</string>
+    <string name="weather_medo_st_6">Weather font</string>
+    <string name="weather_medo_st_7">Weather animation in statusbar</string>
+    <string name="weather_medo_st_8">Weather division</string>
+    <string name="weather_medo_st_9">Weather size</string>
+    <string name="charge_medo_styles_tit">Charging animation style</string>
+    <string name="check_off2">Disabled</string>
+    <string name="check_on2">Enabled</string>
+    <string name="contact_medo_color_title">New contact color</string>
+    <string name="show_notif_on_lock_medo_summ">Keep notifs on lock until checked</string>
+    <string name="show_notif_on_lock_medo_titt">Always show notifications on lock</string>
+    <string name="var_font_switch_dialog_summary">You need to reboot your device to change this setting.</string>
+    <string name="var_font_switch_dialog_title">Reboot device?</string>
+    <string name="mezo_about1">Device Name</string>
+    <string name="mezo_about2">Redmi Note 13 Pro+</string>
+    <string name="mezo_about3">CPU</string>
+    <string name="mezo_about4">Dimensity 7200-Ultra</string>
+    <string name="mezo_about5">Bettey</string>
+    <string name="mezo_about6">5000mAh(typ)</string>
+    <string name="mezo_about7">Resolution</string>
+    <string name="mezo_about8">2712*1220</string>
+    <string name="mezo_about9">Screen Size</string>
+    <string name="mezo_about10">6.67</string>
+    <string name="mezo_about11">Camera</string>
+    <string name="mezo_about12">Front16MP Rear200+8+2MP</string>
+    <string name="mezo_show_pif_properties_title">Play Integrity fix properties</string>
+    <string name="hyper_mezo_cs">Hyper Mod</string>
+    <string name="allow_all_rotations_title">Allow all rotations</string>
+    <string name="allow_update_system_app">Allow updating system apps</string>
+    <string name="charge_animation_style_lollipop">Flow</string>
+    <string name="charge_animation_style_none">Off</string>
+    <string name="account_on_top_tit">Mi Account menu on top</string>
+    <string name="charge_animation_style_video">Glow</string>
+    <string name="color_jam_header_mezo_title">Select clock color</string>
+    <string name="charging_sounds_full_title">Sound when fully charged</string>
+    <string name="check_off1">Disabled</string>
+    <string name="check_on1">Enabled</string>
+    <string name="col_mezo_cc_title">Rows count in Miui12 control center</string>
+    <string name="control_center13_new_1">Top 2 tiles style (UI Restart required)</string>
+    <string name="display_notification_icon_7">%d icons</string>
+    <string name="edge_mode_enabled_title">Edge shadow effects</string>
+    <string name="mezo_blog_summary">Always updated with latest news</string>
+    <string name="mezo_blog_title">MoveOS Development Web</string>
+    <string name="mezo_dev_title">MoveOS Development Project</string>
+    <string name="mezo_dev_title_summ">Web, info, social, Plus/Paid version details</string>
+    <string name="mezo_games_spoof_summ">Spoof the device as different model for some games to unlock higher FPS</string>
+    <string name="mezo_games_spoof_tit">Unlock high FPS in many games</string>
+    <string name="mezo_photos_spoof_summ">Spoof the Google Photos app as Pixel XL</string>
+    <string name="mezo_photos_spoof_tit">Unlimited Google Photos storage</string>
+    <string name="mezo_plus_details">Install chrome to view details about it</string>
+    <string name="mezo_plus_title">Unlock MoveOS RomPlus full Customizations</string>
+    <string name="mezo_settings_title">MoveOS Customizations</string>
+    <string name="mezo_upd_channel">Updates Channel</string>
+    <string name="mezo_upd_channel_summary">MoveOS Roms updates, news on TG</string>
+    <string name="expand_top_notification">Expand top notification</string>
+    <string name="extended_power_menu_summ">Show 6-way power menu</string>
+    <string name="gms_cert_chain_title">Attestation method</string>
+    <string name="hidden_settings_mezo">Some Hidden settings</string>
+    <string name="hyperos_oos_style_mezo">About info page changes</string>
+    <string name="hyperos_oos_style_mezo_0">Use OOS About page</string>
+    <string name="hyperos_oos_style_mezo_1">Using OOS style</string>
+    <string name="hyperos_oos_style_mezo_2">Using HyperOS style</string>
+    <string name="icon_mezo_app_color_title">Colored notification icons</string>
+    <string name="icon_off">Off</string>
+    <string name="icon_on">On</string>
+    <string name="launcher_mezo_9">Pinned apps / Lock to app</string>
+    <string name="lock_max_fps_mezo_j_title">Disable joyose cloud control</string>
+    <string name="lock_max_fps_mezo_j_title2">Data wont be synced by joyose app from cloud</string>
+    <string name="lock_max_fps_mezo_title">Lock refresh rate</string>
+    <string name="lock_max_fps_mezo_title2">Keep same refresh rate across all apps</string>
+    <string name="low_battery_dialog_title">Low battery dialog</string>
+    <string name="low_sound_title">Low battery alert sound</string>
+    <string name="mock_locations_title">Mock locations</string>
+    <string name="mock_locations_title_summ">Treat mock locations as genuine</string>
+    <string name="notif_sound_title">Play notif sound when screen is on</string>
+    <string name="plus_details">MoveOS RomPlus/NG/Pure details</string>
+    <string name="plus_details_summary">All info about paid versions</string>
+    <string name="privacy_mezo_dot_summ">Show or hide privacy icons while accessing camera, mic etc</string>
+    <string name="privacy_mezo_dot_title">Privacy dots and icons</string>
+    <string name="restart_sisui_tit_2">Restart UI</string>
+    <string name="restart_sisui_tit_summ_2">Click it to apply some changes</string>
+    <string name="screenshot_any_app_summary">Allow taking screenshot in any app</string>
+    <string name="screenshot_any_app_title">Screenshot in any app</string>
+    <string name="setting_nfc_title">NFC</string>
+    <string name="show_notif_on_lock_mezo_summ">Keep notifs on lock until checked</string>
+    <string name="show_notif_on_lock_mezo_titt">Always show notifications on lock</string>
+    <string name="sizzling_title">Vibrate on unlocking</string>
+    <string name="spoof_cust_title">Spoof device</string>
+    <string name="spoof_cust_title_summ">Change device model for different apps/games</string>
+    <string name="spoof_ed_1">PIF menu by MoveOS Team</string>
+    <string name="spoof_ed_1_summ">Set your own or default pif profile</string>
+    <string name="spoof_ed_2">Keybox menu by MoveOS Team</string>
+    <string name="spoof_ed_2_summ">Set your own or default keybox</string>
+    <string name="spoofing_system_wide_category">System-wide spoofing</string>
+    <string name="spoofing_vending_summary">Spoof Play Store to latest Pixel device</string>
+    <string name="spoofing_vending_title">Spoof play store</string>
+    <string name="square_tiles_off">Disabled</string>
+    <string name="square_tiles_on">Enabled</string>
+    <string name="square_tiles_title">Square shaped toggles</string>
+    <string name="support_donate_summary">Support project with donations</string>
+    <string name="support_donate_title">Support the project</string>
+    <string name="support_group">Support Group</string>
+    <string name="support_group_summary">Discuss MoveOS Roms in telegram group</string>
+    <string name="themes_server_mezo_title">Themes server</string>
+    <string name="toggle_count_title">Toggles count in Miui11 panel</string>
+    <string name="toggles_count_rows_title">Rows count in expanded Miui11 panel</string>
+    <string name="toggles_count_title">Toggles count in expanded Miui11 panel</string>
+    <string name="xda_profile">Follow us on XDA</string>
+    <string name="xda_profile_summary">XDA profile web page</string>
+    <string name="mezo">MoveOS Lab</string>
+    <string name="new_batterybar_mezo_tit_10">Color from middle</string>
+    <string name="new_batterybar_mezo_tit_11">Primary color around edges</string>
+    <string name="new_batterybar_mezo_tit_12">Choose color</string>
+    <string name="new_batterybar_mezo_tit_13">On</string>
+    <string name="new_batterybar_mezo_tit_14">Off</string>
+    <string name="new_batterybar_mezo_tit_15">Shade color around edges</string>
+    <string name="new_batterybar_mezo_tit_2">Show battery bar on statusbar</string>
+    <string name="new_batterybar_mezo_tit_3">Animate while charging</string>
+    <string name="new_batterybar_mezo_tit_4">Bar tyle</string>
+    <string name="new_batterybar_mezo_tit_5">Bar thickness</string>
+    <string name="new_batterybar_mezo_tit_6">Bar color</string>
+    <string name="new_batterybar_mezo_tit_7">Bar charging color</string>
+    <string name="new_batterybar_mezo_tit_8">Bar low charge warning color</string>
+    <string name="new_batterybar_mezo_tit_9">Gradient color</string>
+    <string name="new_batterybar_mezo_tit_1">Battery bar settings</string>
+    <string name="show_weather_anim_tit">Show weather animation in statusbar</string>
+    <string name="mezo_image2">MoveOS Menu</string>
+    <string name="mezo_image1">Images in Settings</string>
+    <string name="mezo_donate_status_normal_subtitle">Subscribe to become a PRO user</string>
+    <string name="mezo_donate_status_normal_title">You are not PRO User</string>
+    <string name="misc_title">Miscellaneous</string>
+    <string name="gestures_title">Gestures</string>
+    <string name="aboutus_tab">Know more about us</string>
+    <string name="lockscreen_title">Lock screen</string>
+    <string name="statusbar_title">Status bar</string>
+    <string name="quicksettings_title">Quick Settings</string>
+    <string name="gaming_mode_summary">Extra features for immersive gaming experience</string>
+    <string name="gaming_mode_title">Game space</string>
+    <string name="summ_about">About ROM and its Developers</string>
+    <string name="summ_gesture">Playback Control • System Navigation</string>
+    <string name="summ_lock">DT2S • Charging Info • Edge Lighting</string>
+    <string name="summ_misc">Game Space • Power Menu • HwKey</string>
+    <string name="summ_monet">Fonts • Theming • Lockscreen Clock</string>
+    <string name="summ_quick">QS Styles • Brightness • Data Usage</string>
+    <string name="summ_sbar">Network Traffic • Statusbar Icons</string>
+    <string name="rom_summ">Redefining your Move OS with our new update which offers minimal UI enhancement and close to Stock Royal OS with customization</string>
+    <string name="rom_summ2">Your experience while using our ROM will be buttery smooth without compromising the quality of the Royal OS</string>
+    <string name="xd_build_maintained_summary">Maintained by %s</string>
+    <string name="xd_build_status">Your Device Is Officially Supported!</string>
+    <string name="xd_build_unmaintained_summary">This Build Are Maintained Officially</string>
+    <string name="dev_support">Developers and Team</string>
+    <string name="dev1">Mohammed 🇪🇬</string>
+    <string name="dev1_summary">Owner Project</string>
+    <string name="dev2">Alpha</string>
+    <string name="dev2_summary">Co Owner</string>
+    <string name="download_donate">Download and Website</string>
+    <string name="download_summary">Tap here to download builds for your respective devices</string>
+    <string name="website">Our Official WebSite</string>
+    <string name="website_summary">Do visit our website, You will get all necessary info here</string>
+    <string name="tele_channel">Telegram Update Channel</string>
+    <string name="tele_group">Telegram Discussion Group</string>
+    <string name="telegram">Telegram Support</string>
+    <string name="grp_summary">If you have any issues, do share in our telegram discussion group</string>
+    <string name="update_summary">Subscribe us on telegram channel for faster updates</string>
+    <string name="note">Important NOTE</string>
+    <string name="note_summary">Dont Direct Message any devs, groups are there for some reason and use some brain. If we see any direct message we will ban him or her from everywhere. We arent here to serve you 24*7 so just keep patience. Just let us live our life peacefully</string>
+    <string name="don_summ1">• As a matter of fact that in order to build a Custom ROM there are certain pre-requisite such as a High-End Building Server (Jenkins) or PC having very High-End technical specification combined with a very High-Speed internet connection.</string>
+    <string name="don_summ2">• We developers need to allot our time and hard work from our Academics hefty schedule in the proper maintenance of the custom ROM so that we can provide users with timely and stable updates</string>
+    <string name="don_summ3">• Do consider donating or buying me a coffee on Paypal or join us on Patreon for sustainable support and rewards if you want to appreciate our work</string>
+    <string name="patreon">Want Early Build access ?</string>
+    <string name="patreon_summary">Patreon is for those who wants to support devs, get early build access, some exclusive features and benefits.</string>
+    <string name="paypal">Paypal</string>
+    <string name="xd_summary_placeholder">Zircon</string>
+    <string name="download">Download your Builds</string>
+    <string name="customisation_title">Themes</string>
+    <string name="donate">Donate us here</string>
+    <string name="donate_summary">Donate to keep Project active and running</string>
+    <string name="extensions_title">MoveOS </string>
+    <string name="build_tweaks_summary_title">Strive for Amelioration</string>
+    <string name="mezo_ui"> </string>
+    <string name="moveos_personalize">Personalize</string>
+    <string name="moveos_open">Open</string>
+    <string name="moveos_tile_1">Monet</string>
+    <string name="moveos_tile_2">Fonts</string>
+    <string name="moveos_tile_3">UI Mods</string>
+    <string name="moveos_tile_4">System</string>
+    <string name="moveos_banner_text">MoveOS Customization • Dev MEZO</string>
+    <string name="moveos_tile_desc">MoveOS tile</string>
+    <string name="mezo_bat">Change Your Battery icon Styles</string>
+    <string name="mezo_sim">Change Your Signal icon Style</string>
+    <string name="mezo_volte">Change Your VoLTE icon Styles</string>
+    <string name="mezo_notch2">Change Your Notch Styles</string>
+    <string name="mezo_wifi">Change Your Wi-Fi icon Styles</string>
+    <string name="mezo_vowifi">Change Your VoWi-Fi icon Styles</string>
+    <string name="mezo_navi">Change Your Navigationbar icon Styles</string>
+    <string name="mezo_noti">Notification MoveOS</string>
+    <string name="power_menu">Extended Power Menu</string>
+    <string name="power_menu_summ">Enable Extended Power Menu</string>
+    <string name="control_center_summ">Control Center Settings</string>
+    <string name="vowifi_cc">VoWiFi</string>
+    <string name="big_tile_style">Big Tile Style</string>
+    <string name="cc_style">CC Style</string>
+    <string name="tile_corner">Control center icon corner radius</string>
+    <string name="expand_player">Expand Media Player</string>
+    <string name="expand_player_summ">Expand Media Image In Control Center</string>
+    <string name="empty_icon">Add Empty Music Icon</string>
+    <string name="empty_icon_summ">Show Empty Music Icon in Media Player</string>
+    <string name="black_cover">Dark Cover Anciently</string>
+    <string name="black_cover_summ">Use Dark Tint Over Cover Art for Better View</string>
+    <string name="volume_boost">Enable Super Volume</string>
+    <string name="volume_boost_summ">Enable Volume Boost Upto 200%</string>
+    <string name="smart_hub_cc">Enable Smart Hub</string>
+    <string name="smart_devices_cc">Enable Smart Devies</string>
+    <string name="blur_ratio_cc">Control Panel Blur Ratio</string>
+    <string name="tile_label_style2">Two-line tile text</string>
+    <string name="tile_label_size">Tile text size</string>
+    <string name="tile_size">Tile size</string>
+    <string name="big_tile_corner">Corner radius for big tiles</string>
+    <string name="cc_skip_details">Skip details in Control Center</string>
+    <string name="tile_control_category">Tiles and text</string>
+    <string name="status_bar_clock_category">Clock style</string>
+    <string name="hidden_settings_category">Hidden settings</string>
+    <string name="big_tile_summ">Customize the Appearance of Big Tiles</string>
+    <string name="big_tile">Big Tile</string>
+    <string name="mezo_cc_style_summ">Change Media Player Position</string>
+    <string name="mezo_cc_style">Control Center Style</string>
+    <string name="mezo_move">MoveOS Modifications</string>
+    <string name="noti_icon_size">Notification icons Size</string>
+    <string name="theme_mezo_title">theme selection for installation</string>
+    <string name="mezo_cc3" compact="false">Choose a Design for Control Center</string>
+    <string name="mezo_cc4" compact="false">VoWiFi Tiles</string>
+    <string name="mezo_cc5" compact="false">Active VoWiFi Tiles in Control Center</string>
+    <string name="mezo_cc6" compact="false">Extended Power Menu</string>
+    <string name="mezo_cc7" compact="false">Enable Extended Power Menu</string>
+    <string name="mezo_cc8" compact="false">Device Name</string>
+    <string name="mezo_cc9" compact="false">Disable Device Name in Media Player</string>
+    <string name="mezo_cc10" compact="false">Super Volume</string>
+    <string name="mezo_cc11" compact="false">Enable Super Volume and Voice nRestart Systemui To Apply</string>
+    <string name="mezo_cc12" compact="false">Slider Margin</string>
+    <string name="mezo_cc13" compact="false">Wallpaper Blur In Control Centre</string>
+    <string name="mezo_cc14" compact="false">Control Centre Style</string>
+    <string name="mezo_cc15" compact="false">Choose a Design for Control Center</string>
+    <string name="mezo_cc16" compact="false">Control Center Customized</string>
+    <string name="mezo_res" compact="false">Apply Settings</string>
+    <string name="mezo_ress" compact="false">This Will Restart The Systemui To Apply Changes</string>
+    <string name="mezo_res_titel" compact="false">Apply SystemUi Restart</string>
+    <string name="mezo_banar_titel" compact="false">MoveOS Stable</string>
+    <string name="custom_navigation_bar_pill_geture">Pill gesture</string>
+    <string name="custom_navigation_bar_setup_title">Setting up at gestures</string>
+    <string name="custom_navigation_bar_setup_summary">Turn on to setup navigation bar</string>
+    <string name="custom_navigation_bar_monet">Use monet color</string>
+    <string name="custom_navigation_bar_width">Width</string>
+    <string name="custom_navigation_bar_height">Height</string>
+    <string name="custom_navigation_bar_bottom">Bottom position of the screen</string>
+    <string name="custom_navigation_bar_dark_color">Dark color</string>
+    <string name="custom_navigation_bar_light_color">Light color</string>
+    <string name="mezo_donate_status_donate_title">You are now a PRO user</string>
+    <string name="mezo_donate_status_donate_subtitle">Thanks for supporting us!</string>
+    <string name="mezo_statusbar_layout_category_title">Status bar layout</string>
+    <string name="mezo_statusbar_layout_enabled_title">Enable split status bar</string>
+    <string name="mezo_statusbar_layout_enabled_summary">Turns on the custom left/right split layout for the status bar.</string>
+    <string name="mezo_statusbar_layout_style_title">Split layout style</string>
+    <string name="mezo_statusbar_layout_reverse_title">Reverse left and right sides</string>
+    <string name="mezo_statusbar_layout_reverse_summary">Swap the clock/notifications side with the signal/battery side.</string>
+    <string name="wp_settings_mezo_sumary">Set system color same as custom ROM</string>
+    <string name="QS_background_border_radius_title">Outline corner radius</string>
+    <string name="QS_background_border_width_title">Toggles corner width</string>
+    <string name="QS_bg_color_disabled_title">Background color for disabled/off toggles</string>
+    <string name="QS_bg_color_enabled_title">Background color for enabled/on toggles</string>
+    <string name="QS_bg_color_title">Background color for toggles</string>
+    <string name="QS_fg_color_disabled_title">Foreground color for disabled/off toggles</string>
+    <string name="QS_fg_color_enabled_title">Foreground color for enabled/on toggles</string>
+    <string name="battery_mezoset_0">Battery</string>
+    <string name="battery_mezoset_1">Customize battery view icon, size, color etc</string>
+    <string name="battery_mezoset_10">Color and shadows</string>
+    <string name="battery_mezoset_11">Font percent charge</string>
+    <string name="battery_mezoset_12">Show percent icon</string>
+    <string name="battery_mezoset_13">Color of percent inside battery</string>
+    <string name="battery_mezoset_14">Charging indicator</string>
+    <string name="battery_mezoset_15">Fonts</string>
+    <string name="battery_mezoset_16">Battery icon style</string>
+    <string name="battery_mezoset_2">Icon appearance and style</string>
+    <string name="battery_mezoset_21">Show battery icon</string>
+    <string name="battery_mezoset_22">Size</string>
+    <string name="battery_mezoset_23">Scale</string>
+    <string name="battery_mezoset_24">Division</string>
+    <string name="battery_mezoset_25">Battery icon style</string>
+    <string name="battery_mezoset_26">Select Oval battery icon style first</string>
+    <string name="battery_mezoset_3">Battery customizations</string>
+    <string name="battery_mezoset_4">Battery style</string>
+    <string name="battery_mezoset_5">Icon and percent dimensions</string>
+    <string name="battery_mezoset_6">Icon measurements</string>
+    <string name="battery_mezoset_7">Percent measurements</string>
+    <string name="battery_mezoset_8">Charge indicator measurements</string>
+    <string name="battery_mezoset_9">Percentage size inside icon</string>
+    <string name="cc13_summ">CC tiles/toggles customizations</string>
+    <string name="dsb_title">Dual status bar</string>
+    <string name="dsb_title_summ">Get two layers of statusbar</string>
+    <string name="mezo_notif_anim_1">Notifications customizations</string>
+    <string name="mezo_notif_anim_10">Background, center color</string>
+    <string name="mezo_notif_anim_11">Background, end color</string>
+    <string name="mezo_notif_anim_12">Border color</string>
+    <string name="mezo_notif_anim_13">Border width</string>
+    <string name="mezo_notif_anim_14">Corner radius</string>
+    <string name="mezo_notif_anim_15">For single and multiple notifications</string>
+    <string name="mezo_notif_anim_16">Blur level</string>
+    <string name="mezo_notif_anim_17">Image background</string>
+    <string name="mezo_notif_anim_18">Image selection</string>
+    <string name="mezo_notif_anim_19">Notification animations settings</string>
+    <string name="mezo_notif_anim_2">Enable animation</string>
+    <string name="mezo_notif_anim_20">Notification content animation</string>
+    <string name="mezo_notif_anim_21">Repeat animation</string>
+    <string name="mezo_notif_anim_3">Animation style</string>
+    <string name="mezo_notif_anim_4">Animation interpolator</string>
+    <string name="mezo_notif_anim_5">Animation duration</string>
+    <string name="mezo_notif_anim_6">Notifications background customizations</string>
+    <string name="mezo_notif_anim_7">Turn it off for stock like view</string>
+    <string name="mezo_notif_anim_8">Notification background</string>
+    <string name="mezo_notif_anim_9">Background, start color</string>
+    <string name="mezo_notif_anim_summ">Customize notif appearing style</string>
+    <string name="fod_mezo_styles_tit">Fod icon</string>
+    <string name="full_call_window_tit">Fullscreen incoming call window</string>
+    <string name="full_call_window_tit_summ">Always disable popup alert for incoming calls</string>
+    <string name="iback_mezo_st_0">Background of statubar icons</string>
+    <string name="iback_mezo_st_1">Configure background of statusbar icons</string>
+    <string name="iback_mezo_st_10">Bottom margin</string>
+    <string name="iback_mezo_st_11">Top margin</string>
+    <string name="iback_mezo_st_12">Border width</string>
+    <string name="iback_mezo_st_13">Start color</string>
+    <string name="iback_mezo_st_14">End color</string>
+    <string name="iback_mezo_st_15">Border color</string>
+    <string name="iback_mezo_st_16">Round top left corner</string>
+    <string name="iback_mezo_st_17">Round top right corner</string>
+    <string name="iback_mezo_st_18">Round bottom left corner</string>
+    <string name="iback_mezo_st_19">Round bottom right corner</string>
+    <string name="iback_mezo_st_2">Statusbar icons background customizations</string>
+    <string name="iback_mezo_st_20">Battery</string>
+    <string name="iback_mezo_st_21">SIM 1</string>
+    <string name="iback_mezo_st_22">SIM 2</string>
+    <string name="iback_mezo_st_23">Wifi</string>
+    <string name="iback_mezo_st_24">Network Speed</string>
+    <string name="iback_mezo_st_25">Notification icon</string>
+    <string name="iback_mezo_st_26">Status icon</string>
+    <string name="iback_mezo_st_27">Weather</string>
+    <string name="iback_mezo_st_28">Date</string>
+    <string name="iback_mezo_st_29">Prompt icon</string>
+    <string name="iback_mezo_st_3">Clock</string>
+    <string name="iback_mezo_st_4">Configure background as you like</string>
+    <string name="iback_mezo_st_5">Background and margin config</string>
+    <string name="iback_mezo_st_6">Left margin</string>
+    <string name="iback_mezo_st_7">Right margin</string>
+    <string name="iback_mezo_st_8">Left padding and frame offset</string>
+    <string name="iback_mezo_st_9">Right padding and frame offset</string>
+    <string name="incall_settings_summary">Various features for call screen</string>
+    <string name="incall_settings_title">Contacts/Calls</string>
+    <string name="incoming_mezo_color_title">Incoming call color</string>
+    <string name="launcher_cust_summaary">Many options, tweaks for HyperOS launcher</string>
+    <string name="launcher_cust_title">HyperOS Launcher</string>
+    <string name="left_side_title">Left side</string>
+    <string name="listview_animation_duration">Animation duration</string>
+    <string name="listview_animation_title">List animation</string>
+    <string name="listview_interpolator_title">List interpolation</string>
+    <string name="lock_mezo_battery_0">Show battery information on lockscreen</string>
+    <string name="lock_mezo_battery_1">Charging details</string>
+    <string name="lock_mezo_battery_10">In volts (V)</string>
+    <string name="lock_mezo_battery_11">Show power</string>
+    <string name="lock_mezo_battery_12">In watts (W)</string>
+    <string name="lock_mezo_battery_13">Update interval</string>
+    <string name="lock_mezo_battery_14">Restart SystemUI to apply changes</string>
+    <string name="lock_mezo_battery_15">Text size</string>
+    <string name="lock_mezo_battery_2">Shows temperature, current, voltage and power on lockscreen</string>
+    <string name="lock_mezo_battery_3">Show temperature</string>
+    <string name="lock_mezo_battery_4">In celsius degree</string>
+    <string name="lock_mezo_battery_5">Show original charging text</string>
+    <string name="lock_mezo_battery_6">Charging %</string>
+    <string name="lock_mezo_battery_7">Show current ampere</string>
+    <string name="lock_mezo_battery_8">In ampere (A)</string>
+    <string name="lock_mezo_battery_9">Show voltage</string>
+    <string name="lock_mezo_settings_summ">Lockscreen options and customizations</string>
+    <string name="lock_mezo_settings_title">Lockscreen</string>
+    <string name="menu_clr_mezo_0">Seekbar/Progress bar</string>
+    <string name="menu_clr_mezo_1">Checkbox On</string>
+    <string name="menu_clr_mezo_2">Checkbox Off</string>
+    <string name="menu_clr_mezo_3">Checkbox background On</string>
+    <string name="menu_clr_mezo_4">Checkbox background Off</string>
+    <string name="menu_clr_mezo_99">Colors for seekbars and checkboxes</string>
+    <string name="menu_mezo_st_0">Settings menu style</string>
+    <string name="menu_mezo_st_1">Change menu's look as you like</string>
+    <string name="menu_mezo_st_2">Tiling views in MoveOS settings</string>
+    <string name="menu_mezo_st_3">Main menu's style</string>
+    <string name="menu_mezo_st_4">Statusbar settings style</string>
+    <string name="menu_mezo_st_5">Menu's frame width</string>
+    <string name="menu_mezo_st_6">Menu's frame color light mode</string>
+    <string name="menu_mezo_st_7">Menu's frame color dark mode</string>
+    <string name="missed_mezo_color_title">Missed call color</string>
+    <string name="net_mezo_st_32">Wifi icon style</string>
+    <string name="net_mezo_st_33">Signals icon style</string>
+    <string name="net_mezo_st_34">VoWifi icon style</string>
+    <string name="net_mezo_st_35">VoLTE icon style</string>
+    <string name="net_mezo_st_4">SIM 1</string>
+    <string name="net_mezo_st_5">SIM 2</string>
+    <string name="net_mezo_st_6">WiFi</string>
+    <string name="net_mezo_st_7">WiFi arrows</string>
+    <string name="net_mezo_st_8">Network type</string>
+    <string name="net_mezo_st_9">Network type arrow</string>
+    <string name="netspeed_mezo_st_0">Netspeed</string>
+    <string name="netspeed_mezo_st_1">Netspeed color, size, offset etc</string>
+    <string name="netspeed_mezo_st_10">Netspeed referesh interval</string>
+    <string name="netspeed_mezo_st_2">Netspeed customizations</string>
+    <string name="netspeed_mezo_st_3">Configure</string>
+    <string name="netspeed_mezo_st_4">Color</string>
+    <string name="netspeed_mezo_st_5">Font</string>
+    <string name="netspeed_mezo_st_6">Netspeed style</string>
+    <string name="netspeed_mezo_st_7">Size</string>
+    <string name="netspeed_mezo_st_8">Division</string>
+    <string name="netspeed_mezo_st_9">Vertical height</string>
+    <string name="new_notif_background_alpha_title">Transparency for backdrop image</string>
+    <string name="new_notif_background_color_force_title">Force to use above color</string>
+    <string name="new_notif_user_colors_default">Default colors</string>
+    <string name="new_notif_user_colors_use">User colors</string>
+    <string name="notif_mezo_st_0">Notification icons</string>
+    <string name="notif_mezo_st_1">Notification icon color, size, offset etc</string>
+    <string name="notif_mezo_st_2">Notification icon customizations</string>
+    <string name="notif_mezo_st_3">Configure</string>
+    <string name="notif_mezo_st_4">Number of notification icons</string>
+    <string name="notif_mezo_st_5">Icon color</string>
+    <string name="notif_mezo_st_6">Set black and clear to zero to set as default</string>
+    <string name="notif_mezo_st_7">Icons size</string>
+    <string name="notif_mezo_st_8">Icons scale</string>
+    <string name="notif_mezo_st_9">Icons division</string>
+    <string name="old_qs_toggles_customizations_title">Toggles Colors Customizations</string>
+    <string name="old_toggles_cust_title">Old Shade Toggles Color Customizations</string>
+    <string name="old_toggles_cust_title2">Number of rows and columns for toggles</string>
+    <string name="other_settings_summ">Other systemwide options to tune</string>
+    <string name="other_settings_title">Other options</string>
+    <string name="outgoing_mezo_color_title">Outgoing call color</string>
+    <string name="prompt_mezo_st_0">Prompt icon</string>
+    <string name="prompt_mezo_st_1">Icon appear while calling etc</string>
+    <string name="prompt_mezo_st_2">Icon scale</string>
+    <string name="prompt_mezo_st_3">Icon division</string>
+    <string name="qs_toggles_customizations_summary">Change toggles color, outline, width and radius</string>
+    <string name="qs_toggles_customizations_title">QS toggles Miui11</string>
+    <string name="qs_toggles_customizations_title_summary">Miui11 shade panel customizations</string>
+    <string name="rejected_mezo_color_title">Rejected call color</string>
+    <string name="resize_mezo_st_0">Resize statusbar</string>
+    <string name="resize_mezo_st_1">Customize statusbar size from every side</string>
+    <string name="resize_mezo_st_10">Position of camera</string>
+    <string name="resize_mezo_st_11">Position of first element</string>
+    <string name="resize_mezo_st_12">Maximum width of left camera</string>
+    <string name="resize_mezo_st_13">Notch Settings</string>
+    <string name="resize_mezo_st_14">Left camera notch settings</string>
+    <string name="resize_mezo_st_15">Maximum width of left camera</string>
+    <string name="resize_mezo_st_16">Remove camera</string>
+    <string name="resize_mezo_st_2">Statusbar resizing customizations</string>
+    <string name="resize_mezo_st_3">Statusbar height (90)</string>
+    <string name="resize_mezo_st_4">Reboot device after adjustment</string>
+    <string name="resize_mezo_st_5">Camera width (80)</string>
+    <string name="resize_mezo_st_6">Margin from corners, top line (40)</string>
+    <string name="resize_mezo_st_7">Margin from left/right (35)</string>
+    <string name="resize_mezo_st_8">Margin from top (3 for DSB)(30 for single)</string>
+    <string name="resize_mezo_st_9">Camera location on screen</string>
+    <string name="restart_sisui_tit2">Restart UI after changing anything here</string>
+    <string name="restart_sisui_tit_summ2">Click it to apply some effects</string>
+    <string name="right_side_title">Right side</string>
+    <string name="show_weather">Show weather info</string>
+    <string name="mezo_chip">Disable privacy chip</string>
+    <string name="mezo_chip_t">Disable the Camera, Mic &amp;amp; Location privacy chip</string>
+    <string name="mezo_icon_wifi">Wi-Fi icon style</string>
+    <string name="mezo_icon_data">Data icon style</string>
+    <string name="mezo_icon_pin">Battery icon style</string>
+    <string name="mezo_icon_volte">VoLTE icon style</string>
+    <string name="mezo_icon_vowifi">VoWiFi icon style</string>
+    <string name="mezo_icon_narvi">Navigation button style</string>
+    <string name="mezo_icon_wifi_t">Change your style Wi-Fi</string>
+    <string name="mezo_icon_data_t">Change your style Signal</string>
+    <string name="mezo_icon_pin_t">Change your style Battery</string>
+    <string name="mezo_icon_vowifi_t">Change your style VoWi-Fi</string>
+    <string name="mezo_icon_volte_t">Change your style VoLTE</string>
+    <string name="mezo_icon_narvi_t">Change your style Navbar</string>
+    <string name="mezo_notch">Notch style</string>
+    <string name="mezo_noti_num">Number of notifications icons</string>
+    <string name="mezo_hd_volte">Switch HD to VoLTE icon</string>
+    <string name="mezo_statusbar_sett">StatusBar icon Settings</string>
+    <string name="mezo_reboot_system">Reboot System after turn On/Off to apply this option. Turn it Off may help system become more stable</string>
+    <string name="mezo_fing">Fingerprint Animation Typet</string>
+    <string name="mezo_fing1">Change Your Style Fingerprint Animation</string>
+    <string name="mezo_mount">Settings Monet</string>
+    <string name="mezo_mount1">Change Your Settings Monet</string>
+    <string name="mezo_icon_cus" compact="false">Allow to customize icons</string>
+    <string name="mezo_clock_custom">Statusbar Clock Settings</string>
+    <string name="mezo_clock_format_1">Clock Format</string>
+    <string name="mezo_en_notch">Enable Notch Style</string>
+    <string name="mezo_clock">Status Bar Clock Style</string>
+    <string name="mezo_clock1">Restart The Systemui To Apply</string>
+    <string name="mezo_time">Time Format</string>
+    <string name="mezo_notemove">Notification MoveOS</string>
+    <string name="mezo_note1">Colored Notification Icon</string>
+    <string name="mezo_note2">Color Notification Icons On Status Bar</string>
+    <string name="mezo_note3">Show All Notification On Lockscreen</string>
+    <string name="mezo_note4">Show notification on lockscreen even after device unlocking</string>
+    <string name="mezo_char">Detailed Charging</string>
+    <string name="mezo_char1">Detailed Charging Info</string>
+    <string name="mezo_char2">Shows Temp, Current, Voltage and Power on Lockscree</string>
+    <string name="mezo_char3">Show temperaturee</string>
+    <string name="mezo_char4">In degree celcius</string>
+    <string name="mezo_char5">Show default hint</string>
+    <string name="mezo_char6">Charging %</string>
+    <string name="mezo_char7">Show current</string>
+    <string name="mezo_char8">In ampere (A)</string>
+    <string name="mezo_char9">Show voltage</string>
+    <string name="mezo_char10">In volt (V)</string>
+    <string name="mezo_char11">Show power</string>
+    <string name="mezo_char12">In watt (W)</string>
+    <string name="mezo_char13">Refresh interval</string>
+    <string name="mezo_char14">Restart SystemUI to apply</string>
+    <string name="mezo_char15">Text size</string>
+    <string name="mezo_weather">Weather</string>
+    <string name="moveos_mod_name">MoveOS</string>
+    <string name="moveos_dev_name">Dev MEZO</string>
+    <string name="unlink_clocks">Unlink status bar and notification shade clocks</string>
+    <string name="unlink_clocks_summ">Only works with the default notification shade clock (it'll disable the clock transition as well)</string>
+    <string name="clock_size">Status bar clock size</string>
+    <string name="enable_monet">Enable Monet</string>
+    <string name="enable_monet_summ">Enable/Disable System Monet</string>
+    <string name="custom_monet">Custom Monet Color</string>
+    <string name="custom_monet_summ">Choose Color Effect from Monet Picker</string>
+    <string name="monet_icon_settings">Monet icons in Settings</string>
+</resources>

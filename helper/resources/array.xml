@@ -1,0 +1,1418 @@
+<?xml version='1.0' encoding='utf-8' ?>
+<resources offset16="true">
+    <string-array name="default_vol_stream_entries">
+        <item>Ringtone</item>
+        <item>Media</item>
+    </string-array>
+    <string-array name="default_vol_stream_values">
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="status_bar_settings_qs_layout_entries">
+        <item>Default</item>
+        <item>Compact</item>
+    </string-array>
+    <string-array name="status_bar_settings_qs_layout_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <complex name="mezo_sett_header_entries">
+        <string id="0x01000000">Stock</string>
+        <string id="0x02000001">Header 1</string>
+        <string id="0x02000002">Header 2</string>
+        <string id="0x02000003">Header 3</string>
+        <string id="0x02000004">Header 4</string>
+        <string id="0x02000005">Header 5</string>
+        <string id="0x02000006">Header 6</string>
+        <string id="0x02000007">Header 7</string>
+        <string id="0x02000008">Header 8</string>
+        <string id="0x02000009">Header 9</string>
+        <string id="0x0200000a">Header 10</string>
+        <string id="0x0200000b">Header 11</string>
+        <string id="0x0200000c">Header 12</string>
+        <string id="0x0200000d">Header 13</string>
+        <string id="0x0200000e">Header 14</string>
+        <string id="0x0200000f">Header 15</string>
+        <string id="0x02000010">Header 16</string>
+        <string id="0x02000011">Header 17</string>
+        <string id="0x02000012">Header 18</string>
+        <string id="0x02000013">Header 19</string>
+        <string id="0x02000014">Header 20</string>
+        <string id="0x02000015">Header 21</string>
+        <string id="0x02000016">Header 22</string>
+        <string id="0x02000017">Header 23</string>
+        <string id="0x02000018">Header 24</string>
+    </complex>
+    <complex name="mezo_sett_header_values">
+        <string id="0x01000000">0</string>
+        <string id="0x02000001">1</string>
+        <string id="0x02000002">2</string>
+        <string id="0x02000003">3</string>
+        <string id="0x02000004">4</string>
+        <string id="0x02000005">5</string>
+        <string id="0x02000006">6</string>
+        <string id="0x02000007">7</string>
+        <string id="0x02000008">8</string>
+        <string id="0x02000009">9</string>
+        <string id="0x0200000a">10</string>
+        <string id="0x0200000b">11</string>
+        <string id="0x0200000c">12</string>
+        <string id="0x0200000d">13</string>
+        <string id="0x0200000e">14</string>
+        <string id="0x0200000f">15</string>
+        <string id="0x02000010">16</string>
+        <string id="0x02000011">17</string>
+        <string id="0x02000012">18</string>
+        <string id="0x02000013">19</string>
+        <string id="0x02000014">20</string>
+        <string id="0x02000015">21</string>
+        <string id="0x02000016">22</string>
+        <string id="0x02000017">23</string>
+        <string id="0x02000018">24</string>
+    </complex>
+    <string-array name="crop_entries1">
+        <item>Center</item>
+        <item>Center inside</item>
+        <item>Stretch</item>
+    </string-array>
+    <string-array name="crop_values1">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <complex name="settings_collumn_index_entries">
+        <string id="0x02000000">One</string>
+        <string id="0x02000001">Two</string>
+        <string id="0x02000002">Three</string>
+    </complex>
+    <complex name="settings_collumn_index__values">
+        <string id="0x02000000">1</string>
+        <string id="0x02000001">2</string>
+        <string id="0x02000002">3</string>
+    </complex>
+    <complex name="shim_direct_entries">
+        <string id="0x02000000">Left to right</string>
+        <string id="0x02000001">Top to bottom</string>
+        <string id="0x02000002">Right to left</string>
+        <string id="0x02000003">Bottom to top</string>
+    </complex>
+    <complex name="shim_direct_values">
+        <string id="0x02000000">0</string>
+        <string id="0x02000001">1</string>
+        <string id="0x02000002">2</string>
+        <string id="0x02000003">3</string>
+    </complex>
+    <complex name="mezo_header_images">
+        <reference id="0x01000000">@drawable/none_header</reference>
+        <reference id="0x02000001">@drawable/image_header</reference>
+        <reference id="0x02000002">@drawable/mezo_header2</reference>
+        <reference id="0x02000003">@drawable/mezo_header</reference>
+        <reference id="0x02000004">@drawable/sysinfonew_header</reference>
+        <reference id="0x02000005">@drawable/system_header</reference>
+        <reference id="0x02000006">@drawable/sysinfo_header</reference>
+        <reference id="0x02000007">@drawable/wallparti_header</reference>
+        <reference id="0x02000008">@drawable/weather_header</reference>
+        <reference id="0x02000009">@drawable/weatherparti_header</reference>
+        <reference id="0x0200000a">@drawable/account_header</reference>
+        <reference id="0x0200000b">@drawable/new_header</reference>
+        <reference id="0x0200000c">@drawable/weather_info_header</reference>
+        <reference id="0x0200000d">@drawable/device_header_mod_new</reference>
+        <reference id="0x0200000e">@drawable/new_system_mod</reference>
+        <reference id="0x0200000f">@drawable/device_header_weather_full</reference>
+        <reference id="0x02000010">@drawable/device_header_circles</reference>
+        <reference id="0x02000011">@drawable/device_header_ram</reference>
+        <reference id="0x02000012">@drawable/device_header_ram_acc</reference>
+        <reference id="0x02000013">@drawable/device_header_19</reference>
+        <reference id="0x02000014">@drawable/device_header_20</reference>
+    </complex>
+    <string-array name="listview_animation_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="listview_interpolator_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="listview_animation_entries">
+        <item>Default</item>
+        <item>Wave (left)</item>
+        <item>Wave (right)</item>
+        <item>Alpha</item>
+        <item>Scale</item>
+        <item>Stack (top)</item>
+        <item>Stack (bottom)</item>
+        <item>Unfold</item>
+        <item>Fold</item>
+        <item>Translate (left)</item>
+        <item>Translate (right)</item>
+    </string-array>
+    <string-array name="listview_interpolator_entries">
+        <item>Default</item>
+        <item>Accelerate</item>
+        <item>Decelerate</item>
+        <item>Accelerate decelerate</item>
+        <item>Anticipate</item>
+        <item>Overshoot</item>
+        <item>Anticipate overshoot</item>
+        <item>Bounce</item>
+        <item>Cyclic</item>
+        <item>Linear</item>
+    </string-array>
+    <complex name="custom_data_text_entries">
+        <string id="0x02000000">Default</string>
+        <string id="0x02000001">HD+</string>
+        <string id="0x02000002">5G+</string>
+        <string id="0x02000003">LTE+</string>
+        <string id="0x02000004">Lte+</string>
+        <string id="0x02000005">69G+</string>
+    </complex>
+    <complex name="custom_data_text_values">
+        <string id="0x02000000">0</string>
+        <string id="0x02000001">1</string>
+        <string id="0x02000002">2</string>
+        <string id="0x02000003">3</string>
+        <string id="0x02000004">4</string>
+        <string id="0x02000005">5</string>
+    </complex>
+    <complex name="statusbar_style_values">
+        <string id="0x01000001">0</string>
+        <string id="0x01000002">1</string>
+        <string id="0x01000003">2</string>
+        <string id="0x01000004">3</string>
+        <string id="0x01000005">4</string>
+        <string id="0x01000006">5</string>
+        <string id="0x01000007">6</string>
+        <string id="0x01000008">7</string>
+        <string id="0x01000009">8</string>
+        <string id="0x0100000a">9</string>
+        <string id="0x0100000b">10</string>
+        <string id="0x0100000c">11</string>
+        <string id="0x0100000d">12</string>
+        <string id="0x0100000e">13</string>
+        <string id="0x0100000f">14</string>
+        <string id="0x01000010">15</string>
+        <string id="0x02000010">16</string>
+        <string id="0x02000011">17</string>
+        <string id="0x02000012">18</string>
+        <string id="0x02000013">19</string>
+        <string id="0x02000014">20</string>
+        <string id="0x02000015">21</string>
+        <string id="0x02000016">22</string>
+        <string id="0x02000017">23</string>
+        <string id="0x02000018">24</string>
+        <string id="0x02000019">25</string>
+        <string id="0x0200001a">26</string>
+        <string id="0x0200001b">27</string>
+        <string id="0x0200001c">28</string>
+        <string id="0x0200001d">29</string>
+        <string id="0x0200001e">30</string>
+        <string id="0x0200001f">31</string>
+        <string id="0x02000020">32</string>
+        <string id="0x02000021">33</string>
+    </complex>
+    <complex name="statusbar_style_entries">
+        <reference id="0x01000001">@string/preferred_app_settings_default</reference>
+        <string id="0x01000002">Style 1</string>
+        <string id="0x01000003">Style 2</string>
+        <string id="0x01000004">Style 3</string>
+        <string id="0x01000005">Style 4</string>
+        <string id="0x01000006">Style 5</string>
+        <string id="0x01000007">Style 6</string>
+        <string id="0x01000008">Style 7</string>
+        <string id="0x01000009">Style 8</string>
+        <string id="0x0100000a">Style 9</string>
+        <string id="0x0100000b">Style 10</string>
+        <string id="0x0100000c">Style 11</string>
+        <string id="0x0100000d">Style 12</string>
+        <string id="0x0100000e">Style 13</string>
+        <string id="0x0100000f">Style 14</string>
+        <string id="0x01000010">Style 15</string>
+        <string id="0x02000010">Style 16</string>
+        <string id="0x02000011">Style 17</string>
+        <string id="0x02000012">Style 18</string>
+        <string id="0x02000013">Style 19</string>
+        <string id="0x02000014">Style 20</string>
+        <string id="0x02000015">Style 21</string>
+        <string id="0x02000016">Style 22</string>
+        <string id="0x02000017">Style 23</string>
+        <string id="0x02000018">Style 24</string>
+        <string id="0x02000019">Style 25</string>
+        <string id="0x0200001a">Style 26</string>
+        <string id="0x0200001b">Style 27</string>
+        <string id="0x0200001c">Style 28</string>
+        <string id="0x0200001d">Style 29</string>
+        <string id="0x0200001e">Style 30</string>
+        <string id="0x0200001f">Style 31</string>
+        <string id="0x02000020">Style 32</string>
+        <string id="0x02000021">Style 33</string>
+    </complex>
+    <complex name="status_bar_style_icons">
+        <reference id="0x01000000">@drawable/sb_default</reference>
+        <reference id="0x01000001">@drawable/sb_style1</reference>
+        <reference id="0x01000002">@drawable/sb_style2</reference>
+        <reference id="0x01000003">@drawable/sb_style3</reference>
+        <reference id="0x01000004">@drawable/sb_style4</reference>
+        <reference id="0x01000005">@drawable/sb_style5</reference>
+        <reference id="0x01000006">@drawable/sb_style6</reference>
+        <reference id="0x01000007">@drawable/sb_style7</reference>
+        <reference id="0x01000008">@drawable/sb_style8</reference>
+        <reference id="0x01000009">@drawable/sb_style9</reference>
+        <reference id="0x0100000a">@drawable/sb_style10</reference>
+        <reference id="0x0100000b">@drawable/sb_style11</reference>
+        <reference id="0x0100000c">@drawable/sb_style12</reference>
+        <reference id="0x0100000d">@drawable/sb_style13</reference>
+        <reference id="0x0100000e">@drawable/sb_style14</reference>
+        <reference id="0x0100000f">@drawable/sb_style15</reference>
+        <reference id="0x02000010">@drawable/sb_style16</reference>
+        <reference id="0x02000011">@drawable/sb_style17</reference>
+        <reference id="0x02000012">@drawable/sb_style18</reference>
+        <reference id="0x02000013">@drawable/sb_style19</reference>
+        <reference id="0x02000014">@drawable/sb_style20</reference>
+        <reference id="0x02000015">@drawable/sb_style21</reference>
+        <reference id="0x02000016">@drawable/sb_style22</reference>
+        <reference id="0x02000017">@drawable/sb_style23</reference>
+        <reference id="0x02000018">@drawable/sb_style24</reference>
+        <reference id="0x02000019">@drawable/sb_style25</reference>
+        <reference id="0x0200001a">@drawable/sb_style26</reference>
+        <reference id="0x0200001b">@drawable/sb_style27</reference>
+        <reference id="0x0200001c">@drawable/sb_style28</reference>
+        <reference id="0x0200001d">@drawable/sb_style29</reference>
+        <reference id="0x0200001e">@drawable/sb_style30</reference>
+        <reference id="0x0200001f">@drawable/sb_style31</reference>
+        <reference id="0x02000020">@drawable/sb_style32</reference>
+        <reference id="0x02000021">@drawable/sb_style33</reference>
+    </complex>
+    <string-array name="custom_bg_type_entries">
+        <item>One Color</item>
+        <item>Gradient</item>
+    </string-array>
+    <string-array name="custom_bg_type_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="gradient_entries">
+        <item>Top down</item>
+        <item>Bottom to top</item>
+        <item>Left to right</item>
+        <item>Right to left</item>
+    </string-array>
+    <string-array name="gradient_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <complex name="mezo_settings_styles_entries">
+        <string id="0x01000000">Default</string>
+        <string id="0x02000001">Default+summary</string>
+        <string id="0x02000002">Infinity</string>
+        <string id="0x02000003">Infinity+summary</string>
+    </complex>
+    <complex name="mezo_settings_styles_values">
+        <string id="0x01000000">0</string>
+        <string id="0x02000001">1</string>
+        <string id="0x02000002">2</string>
+        <string id="0x02000003">3</string>
+    </complex>
+    <string-array name="ios_widget_style_entries">
+        <item>Battery+volume+ram</item>
+        <item>Weather+volume+ram</item>
+    </string-array>
+    <string-array name="ios_widget_style_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <complex name="mezo_about_phone_mod_entries">
+        <string id="0x01000000">Stock</string>
+        <string id="0x02000001">Header 1</string>
+        <string id="0x02000002">Header 2</string>
+        <string id="0x02000003">Header 3</string>
+        <string id="0x02000004">Header 4</string>
+        <string id="0x02000005">Header 5</string>
+        <string id="0x02000006">Header 6</string>
+        <string id="0x02000007">Header 7</string>
+        <string id="0x02000008">Header 8</string>
+        <string id="0x02000009">Header 9</string>
+        <string id="0x02000010">Header 10</string>
+    </complex>
+    <complex name="mezo_about_phone_mod_values">
+        <string id="0x01000000">0</string>
+        <string id="0x02000001">1</string>
+        <string id="0x02000002">2</string>
+        <string id="0x02000003">3</string>
+        <string id="0x02000004">4</string>
+        <string id="0x02000005">5</string>
+        <string id="0x02000006">6</string>
+        <string id="0x02000007">7</string>
+        <string id="0x02000008">8</string>
+        <string id="0x02000009">9</string>
+        <string id="0x02000010">10</string>
+    </complex>
+    <complex name="mezo_about_phone_images">
+        <reference id="0x01000000">@drawable/header_0</reference>
+        <reference id="0x02000001">@drawable/header_1</reference>
+        <reference id="0x02000002">@drawable/header_2</reference>
+        <reference id="0x02000003">@drawable/header_3</reference>
+        <reference id="0x02000004">@drawable/header_4</reference>
+        <reference id="0x02000005">@drawable/header_5</reference>
+        <reference id="0x02000006">@drawable/header_6</reference>
+        <reference id="0x02000007">@drawable/header_7</reference>
+        <reference id="0x02000008">@drawable/header_8</reference>
+        <reference id="0x02000009">@drawable/header_9</reference>
+    </complex>
+    <complex name="mezo_rom_header_entries">
+        <string id="0x01000000">Header 1</string>
+        <string id="0x02000001">Header 2</string>
+        <string id="0x02000002">Header 3</string>
+        <string id="0x02000003">Header 4</string>
+        <string id="0x02000004">Header 5</string>
+        <string id="0x02000005">Header 6</string>
+    </complex>
+    <complex name="mezo_rom_header_values">
+        <string id="0x01000000">0</string>
+        <string id="0x02000001">1</string>
+        <string id="0x02000002">2</string>
+        <string id="0x02000003">3</string>
+        <string id="0x02000004">4</string>
+        <string id="0x02000005">5</string>
+    </complex>
+    <complex name="mezo_menu_top_image_entries">
+        <string id="0x01000000">No image</string>
+        <string id="0x02000001">Image 1</string>
+        <string id="0x02000002">Image 2</string>
+        <string id="0x02000003">Image 3</string>
+        <string id="0x02000004">Image 4</string>
+        <string id="0x02000005">Image 5</string>
+        <string id="0x02000006">Image 6</string>
+        <string id="0x02000007">Image 7</string>
+        <string id="0x02000008">Image 8</string>
+        <string id="0x02000009">Image 9</string>
+        <string id="0x0200000a">Image 10</string>
+        <string id="0x0200000b">Image 11</string>
+        <string id="0x0200000c">Image 12</string>
+        <string id="0x0200000d">Image 13</string>
+        <string id="0x0200000e">Image 14</string>
+        <string id="0x0200000f">Image 15</string>
+        <string id="0x02000010">Image 16</string>
+        <string id="0x02000011">Image 17</string>
+        <string id="0x02000012">Image 18</string>
+        <string id="0x02000013">Image 19</string>
+        <string id="0x02000014">Image 20</string>
+        <string id="0x02000015">Image 21</string>
+        <string id="0x02000016">Image 22</string>
+        <string id="0x02000017">Image 23</string>
+        <string id="0x02000018">Image 24</string>
+        <string id="0x02000019">Image 25</string>
+    </complex>
+    <complex name="mezo_menu_top_image_values">
+        <string id="0x01000000">0</string>
+        <string id="0x02000001">1</string>
+        <string id="0x02000002">2</string>
+        <string id="0x02000003">3</string>
+        <string id="0x02000004">4</string>
+        <string id="0x02000005">5</string>
+        <string id="0x02000006">6</string>
+        <string id="0x02000007">7</string>
+        <string id="0x02000008">8</string>
+        <string id="0x02000009">9</string>
+        <string id="0x0200000a">10</string>
+        <string id="0x0200000b">11</string>
+        <string id="0x0200000c">12</string>
+        <string id="0x0200000d">13</string>
+        <string id="0x0200000e">14</string>
+        <string id="0x0200000f">15</string>
+        <string id="0x02000010">16</string>
+        <string id="0x02000011">17</string>
+        <string id="0x02000012">18</string>
+        <string id="0x02000013">19</string>
+        <string id="0x02000014">20</string>
+        <string id="0x02000015">21</string>
+        <string id="0x02000016">22</string>
+        <string id="0x02000017">23</string>
+        <string id="0x02000018">24</string>
+        <string id="0x02000019">25</string>
+    </complex>
+    <complex name="mezo_menu_top_image_thums">
+        <reference id="0x01000000">@drawable/thum_settings_top_image_none</reference>
+        <reference id="0x02000001">@drawable/thum_settings_top_image_1</reference>
+        <reference id="0x02000002">@drawable/thum_settings_top_image_2</reference>
+        <reference id="0x02000003">@drawable/thum_settings_top_image_3</reference>
+        <reference id="0x02000004">@drawable/thum_settings_top_image_4</reference>
+        <reference id="0x02000005">@drawable/thum_settings_top_image_5</reference>
+        <reference id="0x02000006">@drawable/thum_settings_top_image_6</reference>
+        <reference id="0x02000007">@drawable/thum_settings_top_image_7</reference>
+        <reference id="0x02000008">@drawable/thum_settings_top_image_8</reference>
+        <reference id="0x02000009">@drawable/thum_settings_top_image_9</reference>
+        <reference id="0x0200000a">@drawable/thum_settings_top_image_10</reference>
+        <reference id="0x0200000b">@drawable/thum_settings_top_image_11</reference>
+        <reference id="0x0200000c">@drawable/thum_settings_top_image_12</reference>
+        <reference id="0x0200000d">@drawable/thum_settings_top_image_13</reference>
+        <reference id="0x0200000e">@drawable/thum_settings_top_image_14</reference>
+        <reference id="0x0200000f">@drawable/thum_settings_top_image_15</reference>
+        <reference id="0x02000010">@drawable/thum_settings_top_image_16</reference>
+        <reference id="0x02000011">@drawable/thum_settings_top_image_17</reference>
+        <reference id="0x02000012">@drawable/thum_settings_top_image_18</reference>
+        <reference id="0x02000013">@drawable/thum_settings_top_image_19</reference>
+        <reference id="0x02000014">@drawable/thum_settings_top_image_20</reference>
+        <reference id="0x02000015">@drawable/thum_settings_top_image_21</reference>
+        <reference id="0x02000016">@drawable/thum_settings_top_image_22</reference>
+        <reference id="0x02000017">@drawable/thum_settings_top_image_23</reference>
+        <reference id="0x02000018">@drawable/thum_settings_top_image_24</reference>
+        <reference id="0x02000019">@drawable/thum_settings_top_image_25</reference>
+    </complex>
+    <complex name="mezo_rom_header_images">
+        <reference id="0x01000000">@drawable/thum_mezo_menu_header</reference>
+        <reference id="0x02000001">@drawable/thum_mezo_menu_header1</reference>
+        <reference id="0x02000002">@drawable/thum_mezo_menu_header2</reference>
+        <reference id="0x02000003">@drawable/thum_mezo_menu_header3</reference>
+        <reference id="0x02000004">@drawable/thum_mezo_menu_header4</reference>
+    </complex>
+    <string-array name="volbtn_action_entries">
+        <item>Next Track</item>
+        <item>Previous Track</item>
+        <item>Stop</item>
+        <item>No Action</item>
+    </string-array>
+    <string-array name="volbtn_action_values">
+        <item>87</item>
+        <item>88</item>
+        <item>127</item>
+        <item>555</item>
+    </string-array>
+    <string-array name="volbtn_timeout_entries">
+        <item>2000 мс</item>
+        <item>1500 мс</item>
+        <item>1000 мс</item>
+        <item>700 мс</item>
+        <item>500 мс</item>
+        <item>300 мс</item>
+    </string-array>
+    <string-array name="volbtn_timeout_values">
+        <item>2000</item>
+        <item>1500</item>
+        <item>1000</item>
+        <item>700</item>
+        <item>500</item>
+        <item>300</item>
+    </string-array>
+    <complex name="extra_big_tiles_images">
+        <reference id="0x01000001">@drawable/style_plugin_stock</reference>
+        <reference id="0x01000002">@drawable/style_plugin_1</reference>
+        <reference id="0x01000003">@drawable/style_plugin_2</reference>
+        <reference id="0x01000004">@drawable/style_plugin_3</reference>
+        <reference id="0x01000005">@drawable/style_plugin_4</reference>
+        <reference id="0x01000006">@drawable/style_plugin_5</reference>
+        <reference id="0x01000007">@drawable/style_plugin_6</reference>
+        <reference id="0x02000007">@drawable/style_plugin_7</reference>
+        <reference id="0x02000008">@drawable/style_plugin_8</reference>
+        <reference id="0x02000009">@drawable/style_plugin_9</reference>
+        <reference id="0x0200000a">@drawable/style_plugin_10</reference>
+    </complex>
+    <complex name="mezo_menu_image_entries">
+        <string id="0x01000000">No image</string>
+        <string id="0x02000001">Image 1</string>
+        <string id="0x02000002">Image 2</string>
+        <string id="0x02000003">Image 3</string>
+        <string id="0x02000004">Image 4</string>
+        <string id="0x02000005">Image 5</string>
+        <string id="0x02000006">Image 6</string>
+        <string id="0x02000007">Image 7</string>
+        <string id="0x02000008">Image 8</string>
+        <string id="0x02000009">Image 9</string>
+        <string id="0x0200000a">Image 10</string>
+        <string id="0x0200000b">Image 11</string>
+        <string id="0x0200000c">Image 12</string>
+        <string id="0x0200000d">Image 13</string>
+        <string id="0x0200000e">Image 14</string>
+        <string id="0x0200000f">Image 15</string>
+        <string id="0x02000010">Image 16</string>
+        <string id="0x02000011">Image 17</string>
+        <string id="0x02000012">Image 18</string>
+        <string id="0x02000013">Image 19</string>
+        <string id="0x02000014">Image 20</string>
+        <string id="0x02000015">Image 21</string>
+        <string id="0x02000016">Image 22</string>
+        <string id="0x02000017">Image 23</string>
+        <string id="0x02000018">Image 24</string>
+        <string id="0x02000019">Image 25</string>
+    </complex>
+    <complex name="mezo_menu_image_values">
+        <string id="0x01000000">0</string>
+        <string id="0x02000001">1</string>
+        <string id="0x02000002">2</string>
+        <string id="0x02000003">3</string>
+        <string id="0x02000004">4</string>
+        <string id="0x02000005">5</string>
+        <string id="0x02000006">6</string>
+        <string id="0x02000007">7</string>
+        <string id="0x02000008">8</string>
+        <string id="0x02000009">9</string>
+        <string id="0x0200000a">10</string>
+        <string id="0x0200000b">11</string>
+        <string id="0x0200000c">12</string>
+        <string id="0x0200000d">13</string>
+        <string id="0x0200000e">14</string>
+        <string id="0x0200000f">15</string>
+        <string id="0x02000010">16</string>
+        <string id="0x02000011">17</string>
+        <string id="0x02000012">18</string>
+        <string id="0x02000013">19</string>
+        <string id="0x02000014">20</string>
+        <string id="0x02000015">21</string>
+        <string id="0x02000016">22</string>
+        <string id="0x02000017">23</string>
+        <string id="0x02000018">24</string>
+        <string id="0x02000019">25</string>
+    </complex>
+    <complex name="mezo_menu_image_thums">
+        <reference id="0x01000000">@drawable/thum_settings_menu_image_none</reference>
+        <reference id="0x02000001">@drawable/thum_settings_menu_image_1</reference>
+        <reference id="0x02000002">@drawable/thum_settings_menu_image_2</reference>
+        <reference id="0x02000003">@drawable/thum_settings_menu_image_3</reference>
+        <reference id="0x02000004">@drawable/thum_settings_menu_image_4</reference>
+        <reference id="0x02000005">@drawable/thum_settings_menu_image_5</reference>
+        <reference id="0x02000006">@drawable/thum_settings_menu_image_6</reference>
+        <reference id="0x02000007">@drawable/thum_settings_menu_image_7</reference>
+        <reference id="0x02000008">@drawable/thum_settings_menu_image_8</reference>
+        <reference id="0x02000009">@drawable/thum_settings_menu_image_9</reference>
+        <reference id="0x0200000a">@drawable/thum_settings_menu_image_10</reference>
+        <reference id="0x0200000b">@drawable/thum_settings_menu_image_11</reference>
+        <reference id="0x0200000c">@drawable/thum_settings_menu_image_12</reference>
+        <reference id="0x0200000d">@drawable/thum_settings_menu_image_13</reference>
+        <reference id="0x0200000e">@drawable/thum_settings_menu_image_14</reference>
+        <reference id="0x0200000f">@drawable/thum_settings_menu_image_15</reference>
+        <reference id="0x02000010">@drawable/thum_settings_menu_image_16</reference>
+        <reference id="0x02000011">@drawable/thum_settings_menu_image_17</reference>
+        <reference id="0x02000012">@drawable/thum_settings_menu_image_18</reference>
+        <reference id="0x02000013">@drawable/thum_settings_menu_image_19</reference>
+        <reference id="0x02000014">@drawable/thum_settings_menu_image_20</reference>
+        <reference id="0x02000015">@drawable/thum_settings_menu_image_21</reference>
+        <reference id="0x02000016">@drawable/thum_settings_menu_image_22</reference>
+        <reference id="0x02000017">@drawable/thum_settings_menu_image_23</reference>
+        <reference id="0x02000018">@drawable/thum_settings_menu_image_24</reference>
+        <reference id="0x02000019">@drawable/thum_settings_menu_image_25</reference>
+    </complex>
+    <string-array name="gradient_orientation">
+        <item>Left to right</item>
+        <item>Right to left</item>
+        <item>Bottom to top</item>
+    </string-array>
+    <complex name="notify_icons_size_entries">
+        <string id="0x01000000">Size 70</string>
+        <string id="0x02000001">Size 65</string>
+        <string id="0x02000002">Size 60</string>
+        <string id="0x02000003">Size 55</string>
+        <string id="0x02000004">Size 50</string>
+        <string id="0x02000005">Size 45</string>
+        <string id="0x02000006">Size 40</string>
+        <string id="0x02000007">Size 35</string>
+        <string id="0x02000008">Size 30</string>
+        <string id="0x02000009">Size 25</string>
+    </complex>
+    <complex name="notify_icons_size_values">
+        <string id="0x01000000">70</string>
+        <string id="0x02000001">65</string>
+        <string id="0x02000002">60</string>
+        <string id="0x02000003">55</string>
+        <string id="0x02000004">50</string>
+        <string id="0x02000005">45</string>
+        <string id="0x02000006">40</string>
+        <string id="0x02000007">35</string>
+        <string id="0x02000008">30</string>
+        <string id="0x02000009">25</string>
+    </complex>
+    <complex name="sb_interval_netspeed_entries">
+        <string id="0x01000000">5 seconds</string>
+        <string id="0x02000001">3 seconds</string>
+        <string id="0x02000002">2 seconds</string>
+        <string id="0x02000003">1.5 seconds</string>
+        <string id="0x02000004">1 seconds</string>
+        <string id="0x02000005">0.7 seconds</string>
+        <string id="0x02000006">0.5 seconds</string>
+        <string id="0x02000007">0.2 seconds</string>
+        <string id="0x02000008">0.1 seconds</string>
+    </complex>
+    <complex name="sb_interval_netspeed_values">
+        <string id="0x01000000">5000</string>
+        <string id="0x02000001">3000</string>
+        <string id="0x02000002">2000</string>
+        <string id="0x02000003">1500</string>
+        <string id="0x02000004">1000</string>
+        <string id="0x02000005">700</string>
+        <string id="0x02000006">500</string>
+        <string id="0x02000007">200</string>
+        <string id="0x02000008">100</string>
+    </complex>
+    <string-array name="anim_expand_name">
+        <item>Bounce (right)</item>
+        <item>Rotate (right)</item>
+        <item>Rotate (left)</item>
+        <item>Expand (horizontal)</item>
+        <item>Expand (vertical)</item>
+        <item>Expand (down)</item>
+        <item>Expand (up)</item>
+    </string-array>
+    <string-array name="anim_expand_name2">
+        <item>Bounce (right)</item>
+        <item>Rotate (right)</item>
+        <item>Rotate (left)</item>
+        <item>Expand (horizontal)</item>
+        <item>Expand (vertical)</item>
+        <item>Expand (down)</item>
+        <item>Expand (up)</item>
+    </string-array>
+    <string-array name="anim_expand_style">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="anim_expand_style2">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>7</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="battery_icon_entries">
+        <item>Android (Rectangle)</item>
+        <item>MIUI (Oval)</item>
+    </string-array>
+    <string-array name="battery_icon_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="battery_indicator_style_entries2">
+        <item>Graphical</item>
+        <item>Percentage (center) and graphical</item>
+        <item>Percentages (right) and graphical</item>
+        <item>Percentages (left) and graphical</item>
+        <item>Percent only</item>
+        <item>Do not show</item>
+    </string-array>
+    <array name="battery_indicator_style_icons2">
+        <reference>@drawable/battery_indicator_graphic</reference>
+        <reference>@drawable/battery_indicator_percent_in</reference>
+        <reference>@drawable/battery_indicator_percent_out_right</reference>
+        <reference>@drawable/battery_indicator_percent_out_left</reference>
+        <reference>@drawable/battery_indicator_percent_only</reference>
+        <reference>@drawable/battery_indicator_off</reference>
+    </array>
+    <string-array name="battery_indicator_style_values2">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>6</item>
+        <item>5</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="bg_interval_entries">
+        <item>5 seconds</item>
+        <item>3 seconds</item>
+        <item>2 seconds</item>
+        <item>1 second</item>
+    </string-array>
+    <string-array name="bg_interval_values">
+        <item>5000</item>
+        <item>3000</item>
+        <item>2000</item>
+        <item>1000</item>
+    </string-array>
+    <string-array name="clock_anim_time">
+        <item>No animation</item>
+        <item>Move down</item>
+        <item>Jump right</item>
+        <item>Rotate X</item>
+        <item>Rotate Y</item>
+    </string-array>
+    <string-array name="clock_anim_time_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold Italic</item>
+    </string-array>
+    <string-array name="clock_style_entries_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="mezo_development_settings_index_entries">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+    </string-array>
+    <array name="mezo_development_settings_index_icons">
+        <reference>@drawable/style_menu_1</reference>
+        <reference>@drawable/style_menu_2</reference>
+        <reference>@drawable/style_menu_3</reference>
+    </array>
+    <string-array name="mezo_development_settings_index_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="extra_big_tiles_entries">
+        <item>Default HyperOS</item>
+        <item>Default HyperOS (inverted)</item>
+        <item>Bluetooth + flashlight</item>
+        <item>Bluetooth + flashlight (inverted 1)</item>
+        <item>Bluetooth + flashlight (inverted 2)</item>
+        <item>Bluetooth + hotspot</item>
+        <item>Bluetooth + hotspot (inverted 1)</item>
+        <item>Bluetooth + hotspot (inverted 2)</item>
+        <item>Hotspot + airplane</item>
+        <item>Hotspot + airplane (inverted 1)</item>
+        <item>Hotspot + airplane (inverted 2)</item>
+    </string-array>
+    <string-array name="extra_big_tiles_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="gms_cert_chain_entries">
+        <item>Block key attestation</item>
+        <item>Allow GMS to get certs</item>
+        <item>Disabled/Stock behavior</item>
+    </string-array>
+    <string-array name="gms_cert_chain_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <array name="icon_date_menu">
+        <reference>@drawable/date_style1</reference>
+        <reference>@drawable/date_style2</reference>
+        <reference>@drawable/date_style3</reference>
+        <reference>@drawable/date_style4</reference>
+        <reference>@drawable/date_style5</reference>
+        <reference>@drawable/date_style6</reference>
+        <reference>@drawable/date_style7</reference>
+        <reference>@drawable/date_style8</reference>
+        <reference>@drawable/date_style9</reference>
+    </array>
+    <string-array name="loopanim_name">
+        <item>Always (no pop-ups)</item>
+        <item>Always (with pop-ups)</item>
+        <item>On notification once</item>
+        <item>When notification panel opened</item>
+    </string-array>
+    <string-array name="loopanim_name2">
+        <item>Always (with pop-ups)</item>
+        <item>Only in pop-up</item>
+        <item>When notification panel opened</item>
+    </string-array>
+    <string-array name="loopanim_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="loopanim_values2">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="net_speed_entries">
+        <item>Do not show</item>
+        <item>One line</item>
+        <item>Two lines</item>
+        <item>Default</item>
+    </string-array>
+    <string-array name="net_speed_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="notch_battery_indicator_style_entries2">
+        <item>Graphical</item>
+        <item>Percentage (center) and graphical</item>
+        <item>Percentages (right) and graphical</item>
+        <item>Percentages (left) and graphical</item>
+        <item>Top bar</item>
+        <item>Percent only</item>
+        <item>Do not show</item>
+    </string-array>
+    <array name="notch_battery_indicator_style_icons2">
+        <reference>@drawable/battery_indicator_graphic</reference>
+        <reference>@drawable/battery_indicator_percent_in</reference>
+        <reference>@drawable/battery_indicator_percent_out_right</reference>
+        <reference>@drawable/battery_indicator_percent_out_left</reference>
+        <reference>@drawable/battery_indicator_top</reference>
+        <reference>@drawable/battery_indicator_percent_only</reference>
+        <reference>@drawable/battery_indicator_off</reference>
+    </array>
+    <string-array name="notch_battery_indicator_style_values2">
+        <item>0</item>
+        <item>1</item>
+        <item>3</item>
+        <item>6</item>
+        <item>2</item>
+        <item>5</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="notif_interpolator_entries">
+        <item>Linear</item>
+        <item>Accelerate</item>
+        <item>Decelerate</item>
+        <item>Accelerate decelerate</item>
+        <item>Bounce</item>
+        <item>Overshoot</item>
+    </string-array>
+    <string-array name="notif_interpolator_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="statusbar_cutout_center_entries">
+        <item>Top line</item>
+        <item>Center</item>
+        <item>Bottom line</item>
+    </string-array>
+    <string-array name="statusbar_cutout_center_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="statusbar_cutout_left_entries">
+        <item>Both elements on the left</item>
+        <item>Top left element</item>
+        <item>Bottom left element</item>
+        <item>Both elements on the right</item>
+    </string-array>
+    <string-array name="statusbar_cutout_left_not_calculate_entries">
+        <item>From top line</item>
+        <item>From bottom line</item>
+        <item>Dont remove</item>
+    </string-array>
+    <string-array name="statusbar_cutout_left_not_calculate_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="statusbar_cutout_left_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="statusbar_cutout_type_entries">
+        <item>No camera hole</item>
+        <item>Center of the screen</item>
+        <item>Left of the screen</item>
+    </string-array>
+    <string-array name="statusbar_cutout_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="statusbar_date_format_entries">
+        <item>Thu May 7</item>
+        <item>May 7</item>
+        <item>Thu 7</item>
+        <item>7</item>
+        <item>May 2022</item>
+        <item>7.07.2022</item>
+        <item>7.07.22</item>
+        <item>07.22</item>
+        <item>Thursday</item>
+    </string-array>
+    <string-array name="statusbar_date_format_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="theme_server_mezo_entries">
+        <item>Global</item>
+        <item>China</item>
+        <item>India</item>
+        <item>Russia</item>
+        <item>Turkey</item>
+        <item>Germany</item>
+    </string-array>
+    <string-array name="theme_server_mezo_values">
+        <item>ID</item>
+        <item>CN</item>
+        <item>IN</item>
+        <item>RU</item>
+        <item>TR</item>
+        <item>DE</item>
+    </string-array>
+    <string-array name="wide_notch_battery_indicator_style_entries2">
+        <item>Graphical</item>
+        <item>Percentage (center) and graphical</item>
+        <item>Percentages (right) and graphical</item>
+        <item>Percentages (left) and graphical</item>
+        <item>Top bar</item>
+        <item>Percent only</item>
+        <item>Do not show</item>
+    </string-array>
+    <string-array name="mezo_overlay_entries">
+        <item>mezo.overlay1</item>
+        <item>mezo.overlay2</item>
+        <item>mezo.overlay3</item>
+        <item>mezo.overlay4</item>
+        <item>mezo.overlay5</item>
+        <item>mezo.overlay6</item>
+        <item>mezo.overlay7</item>
+        <item>mezo.overlay8</item>
+        <item>mezo.overlay9</item>
+        <item>mezo.overlay10</item>
+        <item>mezo.overlay11</item>
+        <item>mezo.overlay12</item>
+        <item>mezo.overlay13</item>
+        <item>mezo.overlay14</item>
+        <item>mezo.overlay15</item>
+        <item>mezo.overlay16</item>
+        <item>mezo.overlay17</item>
+        <item>mezo.overlay18</item>
+        <item>mezo.overlay20</item>
+        <item>mezo.overlay21</item>
+        <item>mezo.overlay22</item>
+        <item>mezo.overlay23</item>
+        <item>mezo.overlay24</item>
+        <item>mezo.overlay25</item>
+        <item>mezo.overlay26</item>
+        <item>mezo.overlay27</item>
+        <item>mezo.overlay28</item>
+        <item>mezo.overlay29</item>
+        <item>mezo.overlay30</item>
+        <item>mezo.overlay31</item>
+        <item>mezo.overlay32</item>
+        <item>mezo.overlay33</item>
+        <item>mezo.overlay34</item>
+        <item>mezo.overlay35</item>
+        <item>mezo.overlay36</item>
+        <item>mezo.overlay37</item>
+        <item>mezo.overlay38</item>
+        <item>mezo.overlay39</item>
+        <item>mezo.overlay40</item>
+        <item>mezo.overlay41</item>
+        <item>mezo.overlay42</item>
+        <item>mezo.overlay43</item>
+        <item>mezo.overlay44</item>
+        <item>mezo.overlay45</item>
+        <item>mezo.overlay46</item>
+        <item>mezo.overlay47</item>
+        <item>mezo.overlay48</item>
+        <item>mezo.overlay49</item>
+        <item>mezo.overlay50</item>
+        <item>mezo.overlay51</item>
+        <item>mezo.overlay52</item>
+        <item>mezo.overlay53</item>
+        <item>mezo.overlay54</item>
+        <item>mezo.overlay55</item>
+        <item>mezo.overlay56</item>
+        <item>mezo.overlay57</item>
+        <item>mezo.overlay58</item>
+        <item>mezo.overlay59</item>
+        <item>mezo.overlay60</item>
+        <item>mezo.overlay61</item>
+        <item>mezo.overlay62</item>
+        <item>mezo.overlay63</item>
+        <item>mezo.overlay64</item>
+        <item>mezo.overlay65</item>
+        <item>mezo.overlay66</item>
+        <item>mezo.overlay67</item>
+        <item>mezo.overlay68</item>
+        <item>mezo.overlay69</item>
+        <item>mezo.overlay70</item>
+        <item>mezo.overlay71</item>
+        <item>mezo.overlay72</item>
+        <item>mezo.overlay73</item>
+        <item>mezo.overlay74</item>
+        <item>mezo.overlay75</item>
+        <item>mezo.overlay76</item>
+        <item>mezo.overlay77</item>
+        <item>mezo.overlay78</item>
+        <item>mezo.overlay79</item>
+        <item>mezo.overlay80</item>
+        <item>mezo.overlay81</item>
+        <item>mezo.overlay82</item>
+        <item>mezo.overlay83</item>
+        <item>mezo.overlay84</item>
+        <item>mezo.overlay85</item>
+        <item>mezo.overlay86</item>
+        <item>mezo.overlay87</item>
+        <item>mezo.overlay88</item>
+        <item>mezo.overlay89</item>
+        <item>mezo.overlay90</item>
+        <item>mezo.overlay91</item>
+        <item>mezo.overlay92</item>
+        <item>mezo.overlay93</item>
+        <item>mezo.overlay94</item>
+    </string-array>
+    <string-array name="mezo_clock_chip_entries">
+        <item>Default</item>
+        <item>Style 1</item>
+        <item>Style 2</item>
+        <item>Style 3</item>
+        <item>Style 4</item>
+        <item>Style 5</item>
+        <item>Style 6</item>
+        <item>Style 7</item>
+        <item>Style 8</item>
+        <item>Style 9</item>
+        <item>Style 10</item>
+        <item>Style 11</item>
+        <item>Style 12</item>
+        <item>Style 13</item>
+        <item>Style 14</item>
+        <item>Style 15</item>
+        <item>Style 16</item>
+        <item>Style 17</item>
+        <item>Style 18</item>
+        <item>Style 19</item>
+        <item>Style 20</item>
+        <item>Style 21</item>
+        <item>Style 22</item>
+        <item>Style 23</item>
+        <item>Style 24</item>
+        <item>Style 25</item>
+        <item>Style 26</item>
+        <item>Style 27</item>
+        <item>Style 28</item>
+        <item>Style 29</item>
+        <item>Style 30</item>
+        <item>Style 31</item>
+        <item>Style 32</item>
+        <item>Style 33</item>
+        <item>Style 34</item>
+        <item>Style 35</item>
+        <item>Style 36</item>
+        <item>Style 37</item>
+        <item>Style 38</item>
+        <item>Style 39</item>
+        <item>Style 40</item>
+        <item>Style 41</item>
+        <item>Style 42</item>
+        <item>Style 43</item>
+        <item>Style 44</item>
+        <item>Style 45</item>
+    </string-array>
+    <string-array name="mezo_clock_chip_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+        <item>21</item>
+        <item>22</item>
+        <item>23</item>
+        <item>24</item>
+        <item>25</item>
+        <item>26</item>
+        <item>27</item>
+        <item>28</item>
+        <item>29</item>
+        <item>30</item>
+        <item>31</item>
+        <item>32</item>
+        <item>33</item>
+        <item>34</item>
+        <item>35</item>
+        <item>36</item>
+        <item>37</item>
+        <item>38</item>
+        <item>39</item>
+        <item>40</item>
+        <item>41</item>
+        <item>42</item>
+        <item>43</item>
+        <item>44</item>
+        <item>45</item>
+    </string-array>
+    <complex name="mezo_frame_costum_entries">
+        <string id="0x01000000">None</string>
+        <string id="0x01000001">Redmi K20</string>
+        <string id="0x01000002">Redmi K30 4G</string>
+        <string id="0x01000003">Redmi K30 5G</string>
+        <string id="0x01000004">Redmi K30 Pro</string>
+        <string id="0x01000005">Redmi K30 Ultra</string>
+        <string id="0x01000006">Mi 9 Pro 5G</string>
+        <string id="0x01000007">Mi 9</string>
+        <string id="0x01000008">Mi 10</string>
+        <string id="0x01000009">Mi 10 Pro</string>
+        <string id="0x0100000a">Mi 10 Ultra</string>
+        <string id="0x0100000b">Mi 10S</string>
+        <string id="0x0100000c">Mi 11</string>
+        <string id="0x0100000d">Redmi Note 9 5G</string>
+        <string id="0x0100000e">Redmi Note 9 4G</string>
+        <string id="0x0100000f">Redmi Note 9 Pro 5G</string>
+        <string id="0x01000010">Xiaomi 13 Ultra</string>
+        <string id="0x01000012">Xiaomi 13 Pro</string>
+        <string id="0x01000013">Xiaomi 13</string>
+        <string id="0x01000014">Xiaomi 12</string>
+        <string id="0x01000015">Xiaomi 12 Pro</string>
+        <string id="0x01000016">Mi 11 Pro</string>
+        <string id="0x01000017">Mi 11 Lite 5G</string>
+        <string id="0x01000018">Xiaomi Civi</string>
+        <string id="0x01000019">Xiaomi Civi 1S</string>
+        <string id="0x0100001a">Redmi K40 Gaming</string>
+        <string id="0x0100001b">Redmi K40</string>
+        <string id="0x0100001c">Redmi Note 11 Pro</string>
+        <string id="0x0100001d">Redmi Note 11 5G</string>
+        <string id="0x0100001e">Redmi Note 10 5G</string>
+        <string id="0x0100001f">Xiaomi 12S Ultra</string>
+        <string id="0x01000020">Xiaomi 12 Pro Dimensity</string>
+        <string id="0x01000021">Xiaomi 12S Pro</string>
+        <string id="0x01000022">Xiaomi 12S</string>
+        <string id="0x01000023">Xiaomi Civi 2</string>
+        <string id="0x01000024">Redmi K50G</string>
+        <string id="0x01000025">Redmi K50 Pro</string>
+        <string id="0x01000026">Redmi K40S</string>
+        <string id="0x01000027">Redmi Note 11T Pro</string>
+        <string id="0x01000028">Redmi Note 12T Pro</string>
+        <string id="0x01000029">Redmi Note 11R</string>
+        <string id="0x0100002a">Redmi K60</string>
+        <string id="0x0100002b">Redmi K60E</string>
+        <string id="0x0100002c">Redmi Note 12 Pro</string>
+        <string id="0x0100002d">Redmi Note 12 Turbo</string>
+        <string id="0x0100002e">Redmi Note 12 5G</string>
+        <string id="0x0100002f">Redmi Note 12 Pro Speed</string>
+        <string id="0x01000030">Xiaomi Civi 3</string>
+        <string id="0x01000031">Redmi Note 10 Pro 5G</string>
+        <string id="0x01000032">MIX 4</string>
+        <string id="0x01000033">Redmi K60 Ultra</string>
+        <string id="0x01000034">Redmi Note 13 Pro 5G</string>
+        <string id="0x01000035">Redmi Note 13 Pro+ 5G</string>
+        <string id="0x01000036">Redmi Note 13 5G</string>
+        <string id="0x01000037">Xiaomi 14 Pro</string>
+        <string id="0x01000038">Xiaomi 14</string>
+        <string id="0x01000039">Redmi K70 Pro</string>
+        <string id="0x0100003a">Redmi K70</string>
+        <string id="0x0100003b">Redmi K70E</string>
+    </complex>
+    <complex name="mezo_frame_costum_values">
+        <string id="0x01000000">vayu</string>
+        <string id="0x01000001">davinci</string>
+        <string id="0x01000002">phoenix</string>
+        <string id="0x01000003">picasso</string>
+        <string id="0x01000004">lmi</string>
+        <string id="0x01000005">cezanne</string>
+        <string id="0x01000006">crux</string>
+        <string id="0x01000007">cepheus</string>
+        <string id="0x01000008">umi</string>
+        <string id="0x01000009">cmi</string>
+        <string id="0x0100000a">cas</string>
+        <string id="0x0100000b">thyme</string>
+        <string id="0x0100000c">venus</string>
+        <string id="0x0100000d">cannon</string>
+        <string id="0x0100000e">lime</string>
+        <string id="0x0100000f">gauguin</string>
+        <string id="0x01000010">ishtar</string>
+        <string id="0x01000012">nuwa</string>
+        <string id="0x01000013">fuxi</string>
+        <string id="0x01000014">cupid</string>
+        <string id="0x01000015">zeus</string>
+        <string id="0x01000016">mars</string>
+        <string id="0x01000017">renoir</string>
+        <string id="0x01000018">mona</string>
+        <string id="0x01000019">zijin</string>
+        <string id="0x0100001a">ares</string>
+        <string id="0x0100001b">alioth</string>
+        <string id="0x0100001c">pissarro</string>
+        <string id="0x0100001d">evergo</string>
+        <string id="0x0100001e">camellia</string>
+        <string id="0x0100001f">thor</string>
+        <string id="0x01000020">daumier</string>
+        <string id="0x01000021">unicorn</string>
+        <string id="0x01000022">mayfly</string>
+        <string id="0x01000023">ziyi</string>
+        <string id="0x01000024">ingres</string>
+        <string id="0x01000025">matisse</string>
+        <string id="0x01000026">munch</string>
+        <string id="0x01000027">xaga</string>
+        <string id="0x01000028">pearl</string>
+        <string id="0x01000029">lightcm</string>
+        <string id="0x0100002a">mondrian</string>
+        <string id="0x0100002b">rembrandt</string>
+        <string id="0x0100002c">ruby</string>
+        <string id="0x0100002d">marble</string>
+        <string id="0x0100002e">sunstone</string>
+        <string id="0x0100002f">redwood</string>
+        <string id="0x01000030">yuechu</string>
+        <string id="0x01000031">chopin</string>
+        <string id="0x01000032">odin</string>
+        <string id="0x01000033">corot</string>
+        <string id="0x01000034">garnet</string>
+        <string id="0x01000035">zircon</string>
+        <string id="0x01000036">gold</string>
+        <string id="0x01000037">shennong</string>
+        <string id="0x01000038">houji</string>
+        <string id="0x01000039">manet</string>
+        <string id="0x0100003a">vermeer</string>
+        <string id="0x0100003b">duchamp</string>
+    </complex>
+    <complex name="mezo_bigtiles_values">
+        <string id="0x02000000">0</string>
+        <string id="0x02000001">1</string>
+        <string id="0x02000002">2</string>
+        <string id="0x02000003">3</string>
+        <string id="0x02000004">4</string>
+        <string id="0x02000005">5</string>
+        <string id="0x02000006">6</string>
+        <string id="0x02000007">7</string>
+    </complex>
+    <complex name="mezo_cc_style_entries">
+        <string id="0x02000000">Default</string>
+        <string id="0x02000001">Style 1</string>
+        <string id="0x02000002">Style 2</string>
+        <string id="0x02000003">Style 3</string>
+        <string id="0x02000004">Style 4</string>
+        <string id="0x02000005">Style 5</string>
+        <string id="0x02000006">Style 6</string>
+        <string id="0x02000007">Style 7</string>
+    </complex>
+    <complex name="mezo_cc_style_values">
+        <string id="0x02000000">0</string>
+        <string id="0x02000001">1</string>
+        <string id="0x02000002">2</string>
+        <string id="0x02000003">3</string>
+        <string id="0x02000004">4</string>
+        <string id="0x02000005">5</string>
+        <string id="0x02000006">6</string>
+        <string id="0x02000007">7</string>
+    </complex>
+    <string-array name="mezo_battery_icon_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="mezo_battery_icon_entries">
+        <item>Default</item>
+        <item>MIUI (Oval)</item>
+    </string-array>
+    <string-array name="mezo_battery_bar_entries">
+        <item>Regular</item>
+        <item>Center Mirrored</item>
+        <item>Reverse</item>
+    </string-array>
+    <string-array name="mezo_battery_bar_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="charge_animation_style_entries">
+        <item>@string/charge_animation_style_none</item>
+        <item>@string/charge_animation_style_lollipop</item>
+        <item>@string/charge_animation_style_wave</item>
+    </string-array>
+    <string-array name="charge_animation_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <complex name="mezo_pulse_style_entries">
+        <string id="0x02000000">Fadding Block</string>
+        <string id="0x02000001">Solid Line</string>
+    </complex>
+    <complex name="mezo_pulse_style_values">
+        <string id="0x02000000">0</string>
+        <string id="0x02000001">1</string>
+    </complex>
+    <string-array name="battery_bar_style_entries">
+        <item>Edge</item>
+        <item>Center</item>
+    </string-array>
+    <string-array name="battery_bar_style_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="mezo_notif_icons_entries">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+    </string-array>
+    <string-array name="mezo_notif_icons_values">
+        <item>85</item>
+        <item>75</item>
+        <item>65</item>
+        <item>55</item>
+        <item>45</item>
+        <item>35</item>
+        <item>25</item>
+    </string-array>
+    <string-array name="mezo_statusbar_layout_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="mezo_statusbar_layout_entries">
+        <item>Default</item>
+        <item>Split style 1</item>
+        <item>Split style 2</item>
+        <item>Split style 3</item>
+        <item>Split style 4</item>
+        <item>Split style 5</item>
+    </string-array>
+</resources>
