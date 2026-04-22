@@ -3,9 +3,8 @@ package com.deadzon.app.feature.settings
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.fillMaxSize
-import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
-import androidx.compose.material3.Button
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
@@ -26,17 +25,14 @@ fun SettingsScreen() {
         ) {
             GlassCard {
                 DeadZonLogoMark()
-                SectionTitle("Settings", "Temporary premium visual pass")
-                Text("Dead Zon keeps Monet and overlay controls fully in-app without ThemePicker or ThemesStub runtime dependency.")
+                SectionTitle("Settings", "DeadZon preferences and app behavior")
+                Text("This app centralizes ROM customizations in one premium interface.")
             }
             GlassCard {
-                Text("Profiles", style = androidx.compose.material3.MaterialTheme.typography.titleMedium)
-                Button(onClick = {}, modifier = Modifier.fillMaxWidth()) { Text("Export Profile (placeholder)") }
-                Button(onClick = {}, modifier = Modifier.fillMaxWidth()) { Text("Import Profile (placeholder)") }
-            }
-            GlassCard {
-                Text("About")
-                Text("Version 1 visual redesign preview")
+                Text("Behavior", style = MaterialTheme.typography.titleMedium)
+                Text("• Root is requested only for privileged actions.")
+                Text("• Monet is available under Tools.")
+                Text("• Module pages map to existing ROM preference keys.")
             }
         }
     }

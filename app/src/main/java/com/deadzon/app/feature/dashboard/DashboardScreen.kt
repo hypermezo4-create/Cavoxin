@@ -8,6 +8,7 @@ import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material.icons.Icons
 import androidx.compose.material.icons.filled.AutoFixHigh
+import androidx.compose.material.icons.filled.GridView
 import androidx.compose.material.icons.filled.Palette
 import androidx.compose.material.icons.filled.Verified
 import androidx.compose.material3.Button
@@ -44,8 +45,8 @@ fun DashboardScreen(navController: NavController, vm: MonetViewModel = hiltViewM
                 Row(horizontalArrangement = Arrangement.spacedBy(12.dp)) {
                     DeadZonLogoMark()
                     Column(verticalArrangement = Arrangement.spacedBy(6.dp), modifier = Modifier.padding(top = 8.dp)) {
-                        Text("DEAD ZON")
-                        Text("Premium Overlay Control", color = Color(0xFFB9A6A6))
+                        Text("DeadZon")
+                        Text("Unified ROM Feature Hub", color = Color(0xFFB9A6A6))
                     }
                 }
             }
@@ -55,26 +56,30 @@ fun DashboardScreen(navController: NavController, vm: MonetViewModel = hiltViewM
                     MetricChip(Icons.Default.Verified, "Monet", if (state.monetEnabled) "Enabled" else "Disabled")
                 }
                 Column(Modifier.weight(1f)) {
-                    MetricChip(Icons.Default.Palette, "Preset", state.selectedPresetId.uppercase())
+                    MetricChip(Icons.Default.Palette, "Palette", state.selectedPresetId.uppercase())
                 }
             }
 
             MetricChip(Icons.Default.AutoFixHigh, "Selected Targets", state.selectedTargets.size.toString())
+            MetricChip(Icons.Default.GridView, "Modules", "About • Notifications • Lockscreen • Control Center")
 
             Row(horizontalArrangement = Arrangement.spacedBy(10.dp), modifier = Modifier.fillMaxWidth()) {
                 Button(
-                    onClick = { vm.apply(false) },
+                    onClick = { navController.navigate(Screen.Modules.route) },
+                    modifier = Modifier.weight(1f)
+                ) { Text("Open Modules") }
+                Button(
+                    onClick = { navController.navigate(Screen.Tools.route) },
                     modifier = Modifier.weight(1f),
                     colors = ButtonDefaults.buttonColors(containerColor = Color(0xFFB91010))
-                ) { Text("Quick Apply") }
-                Button(onClick = { navController.navigate(Screen.Monet.route) }, modifier = Modifier.weight(1f)) { Text("Open Monet") }
+                ) { Text("Open Tools") }
             }
 
             GlassCard {
-                SectionTitle("Future Modules", "Temporary placeholders for this visual pass")
-                Text("• Performance profiles")
-                Text("• Thermal manager")
-                Text("• Network tuning")
+                SectionTitle("What changed", "DeadZon now centralizes ROM options that were previously split across Settings.")
+                Text("• Home for overview")
+                Text("• Modules for ROM feature pages")
+                Text("• Tools for action-based controls like Monet")
             }
         }
     }

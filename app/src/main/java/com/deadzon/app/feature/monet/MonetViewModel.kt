@@ -33,28 +33,11 @@ class MonetViewModel @Inject constructor(
                 bindStored(stored)
             }
         }
-        refreshRootStatus()
     }
 
     fun refreshRootStatus() {
         viewModelScope.launch {
             _uiState.update { it.copy(rootAvailable = controller.hasRoot()) }
-        }
-    }
-
-    fun requestRootFromOnboarding() {
-        viewModelScope.launch {
-            _uiState.update { it.copy(busy = true, lastResult = null) }
-            val hasRoot = controller.hasRoot()
-            prefs.update { it.copy(rootGateCompleted = hasRoot) }
-            _uiState.update {
-                it.copy(
-                    busy = false,
-                    rootAvailable = hasRoot,
-                    rootGateCompleted = hasRoot,
-                    lastResult = if (hasRoot) "Root access granted" else "Root access is required to continue"
-                )
-            }
         }
     }
 
@@ -103,8 +86,7 @@ class MonetViewModel @Inject constructor(
                     monetEnabled = false,
                     applyToApp = true,
                     presetId = "stock",
-                    selectedTargets = emptySet(),
-                    rootGateCompleted = it.rootGateCompleted
+                    selectedTargets = emptySet()
                 )
             }
             _uiState.update {
@@ -130,7 +112,6 @@ class MonetViewModel @Inject constructor(
                 applyToApp = stored.applyToApp,
                 selectedPresetId = stored.presetId,
                 selectedTargets = stored.selectedTargets,
-                rootGateCompleted = stored.rootGateCompleted
             )
         }
     }

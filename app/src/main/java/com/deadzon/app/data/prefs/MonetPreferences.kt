@@ -23,7 +23,6 @@ class MonetPreferences @Inject constructor(
         val applyToApp = booleanPreferencesKey("apply_to_app")
         val preset = stringPreferencesKey("preset")
         val targets = stringPreferencesKey("targets")
-        val rootGateCompleted = booleanPreferencesKey("root_gate_completed")
     }
 
     val state: Flow<StoredMonetState> = context.monetDataStore.data.map { prefs ->
@@ -33,7 +32,6 @@ class MonetPreferences @Inject constructor(
             presetId = prefs[Keys.preset] ?: "stock",
             selectedTargets = (prefs[Keys.targets]?.split(',')?.filter { it.isNotBlank() }
                 ?.toSet() ?: MonetOverlayRegistry.targets.map { it.preferenceKey }.toSet()),
-            rootGateCompleted = prefs[Keys.rootGateCompleted] ?: false
         )
     }
 
@@ -45,14 +43,12 @@ class MonetPreferences @Inject constructor(
                 presetId = prefs[Keys.preset] ?: "stock",
                 selectedTargets = (prefs[Keys.targets]?.split(',')?.filter { it.isNotBlank() }
                     ?.toSet() ?: MonetOverlayRegistry.targets.map { it.preferenceKey }.toSet()),
-                rootGateCompleted = prefs[Keys.rootGateCompleted] ?: false
-            )
+                )
             val next = transform(current)
             prefs[Keys.monetEnabled] = next.monetEnabled
             prefs[Keys.applyToApp] = next.applyToApp
             prefs[Keys.preset] = next.presetId
             prefs[Keys.targets] = next.selectedTargets.joinToString(",")
-            prefs[Keys.rootGateCompleted] = next.rootGateCompleted
         }
     }
 }
@@ -61,8 +57,7 @@ data class StoredMonetState(
     val monetEnabled: Boolean,
     val applyToApp: Boolean,
     val presetId: String,
-    val selectedTargets: Set<String>,
-    val rootGateCompleted: Boolean
+    val selectedTargets: Set<String>
 )
 
 typealias MutablePreferences = androidx.datastore.preferences.core.MutablePreferences
