@@ -11,6 +11,7 @@ import androidx.compose.foundation.lazy.items
 import androidx.compose.material3.Button
 import androidx.compose.material3.ButtonDefaults
 import androidx.compose.material3.CircularProgressIndicator
+import androidx.compose.material3.OutlinedButton
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.OutlinedTextField
 import androidx.compose.material3.Text
@@ -46,7 +47,10 @@ fun MonetScreen(vm: MonetViewModel = hiltViewModel()) {
                 item {
                     SectionTitle("Monet Control", "Temporary redesign pass inspired by red glass mockup")
                 }
-                item { RootStatusCard(rootAvailable = state.rootAvailable) }
+                item {
+                    RootStatusCard(rootAvailable = state.rootAvailable)
+                }
+                item { OutlinedButton(onClick = vm::refreshRootStatus, modifier = Modifier.fillMaxWidth()) { Text("Check Root Status") } }
                 item { QuickSwitch("Master Monet Switch", state.monetEnabled, vm::onMonetToggle) }
                 item { QuickSwitch("Apply to Dead Zon App", state.applyToApp, vm::onApplyToAppToggle) }
                 item {
